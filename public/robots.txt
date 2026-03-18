@@ -1,15 +1,15 @@
 # robots.txt for Wallpaper Gallery
-# 允许所有搜索引擎抓取
-
+# 允许所有合法的搜索引擎抓取
 User-agent: *
 Allow: /
 
-# Sitemap 位置
+# 禁止抓取原始数据文件夹（防止爬虫只抓 JSON 不抓页面）
+Disallow: /data/
+
+# 针对百度爬虫的优化
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# 站点地图位置
 Sitemap: https://wallpaper.061129.xyz/sitemap.xml
-
-# 禁止抓取的路径（如果有）
-# Disallow: /admin/
-# Disallow: /private/
-
-# 爬虫访问频率（可选）
-# Crawl-delay: 1
