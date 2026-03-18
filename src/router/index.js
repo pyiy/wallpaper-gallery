@@ -64,13 +64,6 @@ const routes = [
     component: () => import('@/views/About.vue'),
     meta: { title: '关于我们 - Wallpaper Gallery' },
   },
-  // Android 下载页面
-  {
-    path: '/download',
-    name: 'Download',
-    component: () => import('@/views/DownloadPage.vue'),
-    meta: { title: '下载 App - Wallpaper Gallery', hideHeader: true },
-  },
   // iPhone 真机预览 Demo
   {
     path: '/iphone-demo',
@@ -88,7 +81,9 @@ const routes = [
   // 404 重定向到首页
   {
     path: '/:pathMatch(.*)*',
-    redirect: '/',
+    name: 'NotFound',
+    component: () => import('@/views/NotFound.vue'),
+    meta: { title: '页面未找到 - Wallpaper Gallery' },
   },
 ]
 
@@ -152,8 +147,13 @@ router.beforeEach((to, from, next) => {
 
 // 记录用户选择
 router.afterEach((to) => {
-  if (to.meta?.series)
+  // 1. 在这里加一行修改标题的代码（带兜底）
+  document.title = to.meta.title || 'Wallpaper Gallery - 精选高清4K壁纸'
+
+  // 2. 这是你原本就有的记录 series 的代码
+  if (to.meta?.series) {
     localStorage.setItem(STORAGE_KEY, to.meta.series)
+  }
 })
 
 export default router
