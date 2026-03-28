@@ -110,6 +110,11 @@
     "downloads": 0
   },
   {
+    "image_id": "bing-2026-03-16.jpg",
+    "views": 8,
+    "downloads": 0
+  },
+  {
     "image_id": "bing-2026-03-23.jpg",
     "views": 7,
     "downloads": 4
@@ -128,11 +133,6 @@
     "image_id": "bing-2026-03-18.jpg",
     "views": 7,
     "downloads": 1
-  },
-  {
-    "image_id": "bing-2026-03-16.jpg",
-    "views": 7,
-    "downloads": 0
   },
   {
     "image_id": "bing-2026-01-26.jpg",
@@ -1111,6 +1111,11 @@
   },
   {
     "image_id": "bing-2026-03-26.jpg",
+    "views": 1,
+    "downloads": 0
+  },
+  {
+    "image_id": "bing-2026-03-27.jpg",
     "views": 1,
     "downloads": 0
   }
