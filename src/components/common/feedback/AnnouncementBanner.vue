@@ -58,7 +58,6 @@ function closeBanner() {
         <p class="banner-text mobile-text">
           <strong>欢迎！</strong>
           精选壁纸<span class="highlight">定期更新</span>，记得收藏~
-          <span class="tag">表情包即将上线</span>
         </p>
       </div>
 

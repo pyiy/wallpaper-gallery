@@ -12,6 +12,7 @@ import { usePopularityStore } from '@/stores/popularity'
 import { trackWallpaperDownload, trackWallpaperPreview } from '@/utils/common/analytics'
 import { buildProxyImageUrl, buildRawImageUrl, downloadFile, formatDate, formatFileSize, formatRelativeTime, getDisplayFilename, getFileExtension, getResolutionLabel } from '@/utils/common/format'
 import { recordDownload, recordView } from '@/utils/integrations/supabase'
+import { resolveWallpaperSeries } from '@/utils/wallpaper/identity'
 
 const props = defineProps({
   wallpaper: {
@@ -27,6 +28,7 @@ const props = defineProps({
 const emit = defineEmits(['close', 'openCrop'])
 
 const { currentSeries } = useWallpaperType()
+const effectiveSeries = computed(() => resolveWallpaperSeries(props.wallpaper, currentSeries.value))
 const popularityStore = usePopularityStore()
 
 // 状态
@@ -166,7 +168,7 @@ watch(() => props.wallpaper, () => {
 
 function handleOpen() {
   trackWallpaperPreview(props.wallpaper)
-  recordView(props.wallpaper, currentSeries.value)
+  recordView(props.wallpaper, effectiveSeries.value)
 
   // 滚动锁定由父组件处理，这里只需要显示弹窗
   isVisible.value = true
@@ -199,8 +201,8 @@ async function handleDownload() {
   downloading.value = true
   try {
     await downloadFile(props.wallpaper.url, props.wallpaper.filename)
-    trackWallpaperDownload(props.wallpaper, currentSeries.value)
-    recordDownload(props.wallpaper, currentSeries.value)
+    trackWallpaperDownload(props.wallpaper, effectiveSeries.value)
+    recordDownload(props.wallpaper, effectiveSeries.value)
   }
   finally {
     downloading.value = false
@@ -441,7 +443,7 @@ onUnmounted(() => {
             <!-- 操作按钮 -->
             <div class="action-buttons">
               <button
-                v-if="currentSeries === 'desktop'"
+                v-if="effectiveSeries === 'desktop'"
                 class="crop-btn"
                 :disabled="!imageLoaded"
                 @click="handleOpenCrop"

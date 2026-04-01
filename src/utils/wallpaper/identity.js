@@ -1,3 +1,5 @@
+import { ALL_SERIES } from '@/utils/config/constants'
+
 const BING_FILENAME_PATTERN = /^bing-\d{4}-\d{2}-\d{2}\.jpg$/i
 const BING_DATE_FILENAME_PATTERN = /^\d{4}-\d{2}-\d{2}\.jpg$/i
 
@@ -39,4 +41,55 @@ export function getWallpaperIdentity(wallpaper, series) {
     filename,
     series,
   }
+}
+
+export function resolveWallpaperSeries(wallpaper, fallbackSeries = '') {
+  const assetKeySeries = typeof wallpaper?._assetKey === 'string'
+    ? wallpaper._assetKey.split(':')[0]
+    : ''
+  const pathSeries = [
+    wallpaper?.path,
+    wallpaper?.thumbnailPath,
+    wallpaper?.previewPath,
+    wallpaper?.url,
+    wallpaper?.thumbnailUrl,
+    wallpaper?.previewUrl,
+    wallpaper?.downloadUrl,
+  ]
+    .map((value) => {
+      const normalized = String(value || '').toLowerCase()
+      if (!normalized) {
+        return ''
+      }
+
+      if (normalized.includes('/wallpaper/mobile/') || normalized.includes('/thumbnail/mobile/') || normalized.includes('/data/mobile/')) {
+        return 'mobile'
+      }
+
+      if (normalized.includes('/wallpaper/avatar/') || normalized.includes('/thumbnail/avatar/') || normalized.includes('/data/avatar/')) {
+        return 'avatar'
+      }
+
+      if (normalized.includes('/wallpaper/desktop/') || normalized.includes('/thumbnail/desktop/') || normalized.includes('/data/desktop/')) {
+        return 'desktop'
+      }
+
+      if (normalized.includes('/data/bing/') || normalized.includes('bing.com')) {
+        return 'bing'
+      }
+
+      return ''
+    })
+    .find(series => ALL_SERIES.includes(series))
+
+  const candidates = [
+    wallpaper?._series,
+    assetKeySeries,
+    pathSeries,
+    wallpaper?.series,
+    wallpaper?.isBing ? 'bing' : '',
+    fallbackSeries,
+  ]
+
+  return candidates.find(series => ALL_SERIES.includes(series)) || ''
 }

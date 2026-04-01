@@ -10,6 +10,7 @@ import { usePopularityStore } from '@/stores/popularity'
 import { trackWallpaperDownload, trackWallpaperPreview } from '@/utils/common/analytics'
 import { buildProxyImageUrl, buildRawImageUrl, downloadFile } from '@/utils/common/format'
 import { recordDownload, recordView } from '@/utils/integrations/supabase'
+import { resolveWallpaperSeries } from '@/utils/wallpaper/identity'
 
 import { useDeviceMode } from './composables/useDeviceMode'
 import AvatarDesktopModal from './desktop/AvatarDesktopModal.vue'
@@ -31,25 +32,26 @@ const props = defineProps({
   },
 })
 
-const emit = defineEmits(['close'])
+const emit = defineEmits(['close', 'prev', 'next'])
 
 // Composables
 const { currentSeries } = useWallpaperType()
+const effectiveSeries = computed(() => resolveWallpaperSeries(props.wallpaper, currentSeries.value))
 const { isMobile, isDesktop } = useDevice()
 const deviceMode = useDeviceMode()
 const popularityStore = usePopularityStore()
 
 // PC端使用独立的桌面弹窗
-const useDesktopModal = computed(() => isDesktop.value && currentSeries.value === 'mobile')
+const useDesktopModal = computed(() => isDesktop.value && effectiveSeries.value === 'mobile')
 
 // PC端头像使用独立的头像桌面弹窗
-const useAvatarDesktopModal = computed(() => isDesktop.value && currentSeries.value === 'avatar')
+const useAvatarDesktopModal = computed(() => isDesktop.value && effectiveSeries.value === 'avatar')
 
 // 移动端手机壁纸使用独立的移动端弹窗
-const useMobileModal = computed(() => isMobile.value && currentSeries.value === 'mobile')
+const useMobileModal = computed(() => isMobile.value && effectiveSeries.value === 'mobile')
 
 // 移动端头像使用独立的头像弹窗
-const useAvatarMobileModal = computed(() => isMobile.value && currentSeries.value === 'avatar')
+const useAvatarMobileModal = computed(() => isMobile.value && effectiveSeries.value === 'avatar')
 
 // 模板引用
 const contentRef = ref(null)
@@ -90,8 +92,8 @@ const displayImageUrl = computed(() => {
 })
 
 // 派生状态
-const canUseDeviceMode = computed(() => currentSeries.value === 'mobile')
-const isAvatarSeries = computed(() => currentSeries.value === 'avatar')
+const canUseDeviceMode = computed(() => effectiveSeries.value === 'mobile')
+const isAvatarSeries = computed(() => effectiveSeries.value === 'avatar')
 
 // 监听 isOpen 变化
 watch(() => props.isOpen, async (isOpen) => {
@@ -119,7 +121,7 @@ watch(() => props.wallpaper, () => {
 function handleOpen() {
   // 追踪和统计
   trackWallpaperPreview(props.wallpaper)
-  recordView(props.wallpaper, currentSeries.value)
+  recordView(props.wallpaper, effectiveSeries.value)
 
   // 锁定背景滚动
   savedScrollY.value = window.scrollY || window.pageYOffset
@@ -184,8 +186,8 @@ async function handleDownload() {
   downloading.value = true
   try {
     await downloadFile(props.wallpaper.url, props.wallpaper.filename)
-    trackWallpaperDownload(props.wallpaper, currentSeries.value)
-    recordDownload(props.wallpaper, currentSeries.value)
+    trackWallpaperDownload(props.wallpaper, effectiveSeries.value)
+    recordDownload(props.wallpaper, effectiveSeries.value)
   }
   finally {
     downloading.value = false

@@ -347,9 +347,9 @@ function handleAvatarMakerClose() {
       />
 
       <template v-else>
-        <div v-if="currentSeries === 'avatar'" class="avatar-banners">
+        <div v-if="currentSeries === 'avatar' && !isMobile" class="avatar-banners">
           <DiyAvatarBanner />
-          <AvatarMakerBanner v-if="!isMobile" @click="handleAvatarMakerClick" />
+          <AvatarMakerBanner @click="handleAvatarMakerClick" />
         </div>
 
         <HotTagsPanel

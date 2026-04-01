@@ -44,24 +44,7 @@ export async function fetchUserCollections(series) {
   if (!session)
     return []
 
-  const { data, error } = await supabase
-    .from('user_collection_items')
-    .select('asset_key, collection_id')
-    .like('asset_key', `${series}:%`)
-    .in(
-      'collection_id',
-      supabase
-        .from('user_collections')
-        .select('id')
-        .eq('user_id', session.user.id),
-    )
-
-  // 如果 .in() 子查询不支持，使用两步查询
-  if (error) {
-    return await fetchUserCollectionsTwoStep(session.user.id, series)
-  }
-
-  return data.map(row => row.asset_key)
+  return await fetchUserCollectionsTwoStep(session.user.id, series)
 }
 
 async function fetchUserCollectionsTwoStep(userId, series) {

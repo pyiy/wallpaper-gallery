@@ -8,6 +8,7 @@ import { usePopularityStore } from '@/stores/popularity'
 import { trackWallpaperDownload, trackWallpaperPreview } from '@/utils/common/analytics'
 import { buildProxyImageUrl, buildRawImageUrl, downloadFile, formatDate, formatFileSize, formatRelativeTime, getDisplayFilename, getFileExtension, getResolutionLabel } from '@/utils/common/format'
 import { recordDownload, recordView } from '@/utils/integrations/supabase'
+import { resolveWallpaperSeries } from '@/utils/wallpaper/identity'
 import ImageCropModal from '../crop/index.vue'
 import DesktopModal from './desktop/DesktopModal.vue'
 import BingWallpaperInfo from './shared/BingWallpaperInfo.vue'
@@ -30,16 +31,17 @@ const { isMobile, isTablet, isDesktop, isLandscape, isPortrait } = useDevice()
 
 // 获取当前系列
 const { currentSeries } = useWallpaperType()
+const effectiveSeries = computed(() => resolveWallpaperSeries(props.wallpaper, currentSeries.value))
 
 // 热门数据 Store
 const popularityStore = usePopularityStore()
 
 // PC端桌面壁纸和每日Bing使用独立的桌面弹窗（带 MacBook 预览）
-const useDesktopModal = computed(() => isDesktop.value && (currentSeries.value === 'desktop' || currentSeries.value === 'bing'))
+const useDesktopModal = computed(() => isDesktop.value && ['desktop', 'bing'].includes(effectiveSeries.value))
 
 // 是否显示裁剪功能（PC端和平板端，仅 desktop 系列）
 // 平板用户也需要裁剪功能（4:3 iPad, 16:10 安卓, 3:2 Surface）
-const showCropFeature = computed(() => !isMobile.value && currentSeries.value === 'desktop')
+const showCropFeature = computed(() => !isMobile.value && effectiveSeries.value === 'desktop')
 
 // 是否使用水平布局（PC端，或平板横屏时）
 const useHorizontalLayout = computed(() => {
@@ -146,7 +148,7 @@ watch(() => props.isOpen, async (isOpen) => {
       // 追踪壁纸预览事件
       trackWallpaperPreview(props.wallpaper)
       // 记录到 Supabase 统计（异步 RPC）
-      recordView(props.wallpaper, currentSeries.value)
+      recordView(props.wallpaper, effectiveSeries.value)
     }
 
     // 保存当前滚动位置
@@ -402,9 +404,9 @@ async function handleDownload() {
   try {
     await downloadFile(props.wallpaper.url, props.wallpaper.filename)
     // 追踪下载事件,包含系列信息
-    trackWallpaperDownload(props.wallpaper, currentSeries.value)
+    trackWallpaperDownload(props.wallpaper, effectiveSeries.value)
     // 记录到 Supabase 统计（异步 RPC）
-    recordDownload(props.wallpaper, currentSeries.value)
+    recordDownload(props.wallpaper, effectiveSeries.value)
   }
   finally {
     downloading.value = false

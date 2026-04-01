@@ -8,6 +8,7 @@ import PageLoadingScene from '@/components/common/feedback/PageLoadingScene.vue'
 import RemoteAvatar from '@/components/common/ui/RemoteAvatar.vue'
 import { useAuthStore } from '@/stores/auth'
 import { getAvatarInitial, getAvatarStyle } from '@/utils/auth/avatarAppearance'
+import { formatSupabaseAuthError } from '@/utils/auth/errors'
 import {
   formatAccountHandle,
   getIdentityAccountHandle,
@@ -101,22 +102,7 @@ const passwordSubmitLabel = computed(() => {
 const canManagePassword = computed(() => Boolean(authEmail.value))
 
 function formatAccountError(error) {
-  const message = String(error?.message || error || '')
-
-  if (/identity is already linked/i.test(message))
-    return '这个登录方式已经绑定到当前账号。'
-  if (/manual linking is disabled/i.test(message))
-    return 'Supabase 还没有打开手动关联开关，请先在 Auth Providers 中启用 Enable Manual Linking。'
-  if (/at least 2 identities/i.test(message))
-    return '至少保留两种登录方式后，才能解除其中一种绑定。'
-  if (/same password/i.test(message))
-    return '新密码不能和当前密码相同。'
-  if (/Password should be at least/i.test(message))
-    return '密码长度不足，请至少输入 6 位。'
-  if (/reauthentication/i.test(message))
-    return '当前登录状态过旧，请重新登录后再修改密码。'
-
-  return message || '账号操作失败，请稍后再试。'
+  return formatSupabaseAuthError(error, '账号操作失败，请稍后再试。')
 }
 
 function getLoginRoute() {
@@ -311,6 +297,8 @@ async function handleUnlinkProvider(providerKey) {
       {
         cancelButtonText: '取消',
         confirmButtonText: '继续解除',
+        customClass: 'account-unlink-dialog',
+        showClose: false,
         type: 'warning',
       },
     )
@@ -323,7 +311,13 @@ async function handleUnlinkProvider(providerKey) {
 
   try {
     await authStore.unlinkIdentity(identity)
-    ElMessage.success(`${provider.label} 已解除绑定`)
+    ElMessage({
+      appendTo: document.body,
+      grouping: false,
+      message: `${provider.label} 已解除绑定`,
+      type: 'success',
+      zIndex: 4000,
+    })
   }
   catch (error) {
     ElMessage.error(formatAccountError(error))
@@ -715,6 +709,228 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
+.is-message-box .el-overlay-message-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: initial;
+}
+
+.is-message-box .el-overlay-message-box::after {
+  display: none !important;
+}
+
+.is-message-box .el-overlay-message-box {
+  background: rgba(15, 23, 42, 0.56);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.account-unlink-dialog {
+  width: min(92vw, 560px) !important;
+  max-width: min(92vw, 560px) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 26px !important;
+  border: 1px solid rgba(255, 255, 255, 0.68) !important;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.985), rgba(255, 255, 255, 0.94)),
+    linear-gradient(140deg, rgba(37, 99, 235, 0.1), rgba(14, 165, 233, 0.06) 52%, rgba(255, 255, 255, 0)) !important;
+  box-shadow:
+    0 28px 72px rgba(15, 23, 42, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.account-unlink-dialog .el-message-box__header {
+  margin: 0;
+  padding: 24px 56px 12px 24px;
+}
+
+.account-unlink-dialog .el-message-box__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.account-unlink-dialog .el-message-box__headerbtn {
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  color: rgba(30, 41, 59, 0.72);
+  transition: all 0.2s ease;
+}
+
+.account-unlink-dialog .el-message-box__headerbtn:hover {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+}
+
+.account-unlink-dialog .el-message-box__content {
+  padding: 0 24px 0;
+}
+
+.account-unlink-dialog .el-message-box__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.account-unlink-dialog .el-message-box__status {
+  position: static !important;
+  margin: 2px 0 0;
+  flex-shrink: 0;
+  font-size: 26px !important;
+  color: #f59e0b !important;
+}
+
+.account-unlink-dialog .el-message-box__message {
+  padding-left: 0 !important;
+}
+
+.account-unlink-dialog .el-message-box__message p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.72;
+  color: #334155;
+  word-break: break-word;
+}
+
+.account-unlink-dialog .el-message-box__btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 22px 24px 24px;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.account-unlink-dialog .el-message-box__btns .el-button {
+  min-width: 116px;
+  height: 44px;
+  margin-left: 0 !important;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.account-unlink-dialog .el-message-box__btns .el-button--default {
+  border-color: rgba(148, 163, 184, 0.24);
+  background: rgba(255, 255, 255, 0.78);
+  color: #334155;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.account-unlink-dialog .el-message-box__btns .el-button--default:hover {
+  border-color: rgba(96, 165, 250, 0.36);
+  color: #0f172a;
+  background: rgba(248, 250, 252, 0.96);
+}
+
+.account-unlink-dialog .el-message-box__btns .el-button--primary {
+  border: none;
+  background: var(--accent-gradient);
+  color: #fff;
+  box-shadow: 0 12px 26px var(--accent-shadow);
+}
+
+.account-unlink-dialog .el-message-box__btns .el-button--primary:hover {
+  background: var(--accent-gradient-hover);
+  box-shadow: 0 16px 30px var(--accent-shadow-strong);
+}
+
+html[data-theme='dark'] .is-message-box .el-overlay-message-box {
+  background: rgba(2, 6, 23, 0.7);
+}
+
+html[data-theme='dark'] .account-unlink-dialog {
+  border-color: rgba(148, 163, 184, 0.18) !important;
+  background:
+    linear-gradient(180deg, rgba(8, 15, 28, 0.98), rgba(8, 15, 28, 0.94)),
+    linear-gradient(140deg, rgba(59, 130, 246, 0.14), rgba(14, 165, 233, 0.08) 52%, rgba(2, 6, 23, 0)) !important;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__title {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__headerbtn {
+  color: rgba(226, 232, 240, 0.72);
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__headerbtn:hover {
+  background: rgba(96, 165, 250, 0.12);
+  color: #93c5fd;
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__message p {
+  color: rgba(226, 232, 240, 0.86);
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__btns {
+  border-top-color: rgba(148, 163, 184, 0.14);
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__btns .el-button--default {
+  border-color: rgba(148, 163, 184, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(226, 232, 240, 0.88);
+  box-shadow: none;
+}
+
+html[data-theme='dark'] .account-unlink-dialog .el-message-box__btns .el-button--default:hover {
+  border-color: rgba(96, 165, 250, 0.28);
+  background: rgba(255, 255, 255, 0.08);
+  color: #f8fafc;
+}
+
+@media (max-width: 640px) {
+  .is-message-box .el-overlay-message-box {
+    padding: 16px;
+  }
+
+  .account-unlink-dialog {
+    width: min(94vw, 560px) !important;
+    max-width: min(94vw, 560px) !important;
+    border-radius: 22px !important;
+  }
+
+  .account-unlink-dialog .el-message-box__header {
+    padding: 20px 52px 10px 20px;
+  }
+
+  .account-unlink-dialog .el-message-box__title {
+    font-size: 21px;
+  }
+
+  .account-unlink-dialog .el-message-box__content {
+    padding: 0 20px 0;
+  }
+
+  .account-unlink-dialog .el-message-box__message p {
+    font-size: 15px;
+  }
+
+  .account-unlink-dialog .el-message-box__btns {
+    padding: 18px 20px 20px;
+  }
+
+  .account-unlink-dialog .el-message-box__btns .el-button {
+    min-width: 100px;
+    height: 42px;
+  }
+}
+
 .account-password-dialog {
   border-radius: 24px;
   overflow: hidden;

@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import AuthFlowPanel from '@/components/login/AuthFlowPanel.vue'
 import { useAuthStore } from '@/stores/auth'
+import { formatSupabaseAuthError } from '@/utils/auth/errors'
 import { getAuthProviderDefinition } from '@/utils/auth/providers'
 import { getAuthRedirectTargetFromRoute } from '@/utils/auth/redirect'
 
@@ -33,9 +34,15 @@ const title = computed(() => {
   return isLinkFlow.value ? '关联账号中' : '账号同步中'
 })
 
-const callbackError = computed(() =>
-  route.query.error_description || route.query.error || authStore.lastError,
+const callbackRawError = computed(() =>
+  route.query.error_code || route.query.error_description || route.query.error || authStore.lastError,
 )
+const callbackError = computed(() => formatSupabaseAuthError({
+  code: route.query.error_code,
+  error: route.query.error,
+  error_description: route.query.error_description,
+  message: route.query.error_description || route.query.error || authStore.lastError,
+}, '登录未完成，请稍后再试。'))
 
 async function finishAuthCallback() {
   message.value = isLinkFlow.value
@@ -48,9 +55,9 @@ async function finishAuthCallback() {
     return
   }
 
-  if (callbackError.value) {
+  if (callbackRawError.value) {
     state.value = 'error'
-    message.value = String(callbackError.value)
+    message.value = callbackError.value
     return
   }
 

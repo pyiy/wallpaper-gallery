@@ -12,6 +12,7 @@ import { useInteractionStore } from '@/stores/interaction'
 import { useWallpaperStore } from '@/stores/wallpaper'
 import { getAvatarInitial, getAvatarStyle } from '@/utils/auth/avatarAppearance'
 import { SERIES_CONFIG } from '@/utils/config/constants'
+import { resolveWallpaperSeries } from '@/utils/wallpaper/identity'
 
 const route = useRoute()
 const router = useRouter()
@@ -112,8 +113,7 @@ const usePortraitModal = computed(() => {
   if (activeSeries.value === 'mobile' || activeSeries.value === 'avatar')
     return true
   if (activeSeries.value === 'all' && selectedWallpaper.value) {
-    const key = selectedWallpaper.value._assetKey || ''
-    const series = key.split(':')[0]
+    const series = resolveWallpaperSeries(selectedWallpaper.value)
     return series === 'mobile' || series === 'avatar'
   }
   return false
@@ -121,9 +121,25 @@ const usePortraitModal = computed(() => {
 
 // 当前系列的 aspectRatio
 function getAspectRatio(wallpaper) {
-  const key = wallpaper?._assetKey || ''
-  const series = key.split(':')[0]
+  const series = resolveWallpaperSeries(wallpaper, activeSeries.value === 'all' ? '' : activeSeries.value)
   return SERIES_CONFIG[series]?.aspectRatio || '16/10'
+}
+
+function normalizeSelectedWallpaper(wallpaper) {
+  if (!wallpaper || typeof wallpaper !== 'object') {
+    return null
+  }
+
+  const resolvedSeries = resolveWallpaperSeries(
+    wallpaper,
+    activeSeries.value === 'all' ? '' : activeSeries.value,
+  )
+
+  return {
+    ...wallpaper,
+    _assetKey: wallpaper._assetKey || '',
+    _series: resolvedSeries || wallpaper._series || '',
+  }
 }
 
 function resolveLibraryTab(value) {
@@ -231,7 +247,7 @@ function createMinimalWallpaper(assetKey, filename, series) {
 
 // 壁纸点击 → 打开弹窗
 function handleSelectWallpaper(wallpaper) {
-  selectedWallpaper.value = wallpaper
+  selectedWallpaper.value = normalizeSelectedWallpaper(wallpaper)
   isModalOpen.value = true
 }
 
@@ -344,7 +360,7 @@ onMounted(() => {
         <template v-else>
           <header class="library-hero">
             <!-- <span class="library-eyebrow">Library</span> -->
-            <h1>收藏夹与我的喜欢</h1>
+            <!-- <h1>收藏夹与我的喜欢</h1> -->
             <p>在这里管理你收藏和喜欢的壁纸，按系列分类浏览，点击预览图查看详情。</p>
           </header>
 
@@ -478,7 +494,7 @@ onMounted(() => {
                     :liked="interactionStore.isLiked(wallpaper.filename || wallpaper.id, wallpaper._series)"
                     :collected="interactionStore.isCollected(wallpaper.filename || wallpaper.id, wallpaper._series)"
                     :is-authenticated="true"
-                    @click="handleSelectWallpaper"
+                    @click="handleSelectWallpaper(wallpaper)"
                     @toggle-like="interactionStore.handleToggleLike(wallpaper.filename || wallpaper.id, wallpaper._series)"
                     @toggle-collect="interactionStore.handleToggleCollect(wallpaper.filename || wallpaper.id, wallpaper._series)"
                   />

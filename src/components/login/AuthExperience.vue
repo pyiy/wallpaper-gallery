@@ -9,6 +9,7 @@ import AuthFlowPanel from '@/components/login/AuthFlowPanel.vue'
 import LoginCharacterScene from '@/components/login/LoginCharacterScene.vue'
 import { useTheme } from '@/composables/useTheme'
 import { useAuthStore } from '@/stores/auth'
+import { formatSupabaseAuthError } from '@/utils/auth/errors'
 import { getAuthRedirectTargetFromRoute } from '@/utils/auth/redirect'
 
 const props = defineProps({
@@ -114,24 +115,7 @@ const signupConfirmationText = computed(() => {
 })
 
 function formatAuthError(error) {
-  const message = String(error?.message || error || '')
-
-  if (/Invalid login credentials/i.test(message))
-    return '邮箱或密码不正确。'
-  if (/Email not confirmed/i.test(message))
-    return '邮箱尚未验证，请先打开验证邮件完成确认。'
-  if (/User already registered/i.test(message))
-    return '这个邮箱已经注册过了，请直接登录。'
-  if (/Password should be at least/i.test(message))
-    return '密码长度不足，请至少输入 6 位。'
-  if (/Unable to validate email address/i.test(message))
-    return '邮箱格式不正确，请检查后重试。'
-  if (/provider is not enabled/i.test(message))
-    return '当前第三方登录方式还未在 Supabase 后台启用。'
-  if (/network/i.test(message))
-    return '网络连接异常，请稍后重试。'
-
-  return message || '登录请求失败，请稍后再试。'
+  return formatSupabaseAuthError(error, '登录请求失败，请稍后再试。')
 }
 
 function ensureAuthReady() {

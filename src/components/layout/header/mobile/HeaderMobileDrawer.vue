@@ -568,14 +568,20 @@ html[data-theme='dark'] .mobile-drawer.van-popup {
 .nav-grid,
 .series-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
+}
+
+.nav-grid {
+  grid-template-columns: 1fr;
+}
+
+.series-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .nav-card,
 .series-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 18px 14px;
@@ -602,24 +608,38 @@ html[data-theme='dark'] .mobile-drawer.van-popup {
   }
 }
 
+.nav-card {
+  justify-content: flex-start;
+  min-height: 68px;
+  padding: 12px 14px;
+  border-radius: 14px;
+
+  span {
+    font-size: 15px;
+  }
+}
+
 .nav-card-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   background: var(--accent-surface);
-  border-radius: 14px;
+  border-radius: 12px;
   transition: all 250ms;
+  flex-shrink: 0;
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     color: var(--color-accent);
   }
 }
 
 .series-item {
+  flex-direction: column;
+  justify-content: center;
   svg {
     width: 26px;
     height: 26px;

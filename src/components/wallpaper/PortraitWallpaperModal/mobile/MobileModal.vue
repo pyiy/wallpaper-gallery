@@ -7,6 +7,7 @@ import { usePopularityStore } from '@/stores/popularity'
 import { trackWallpaperDownload, trackWallpaperPreview } from '@/utils/common/analytics'
 import { buildProxyImageUrl, buildRawImageUrl, downloadFile, formatDate, formatFileSize, getDisplayFilename, getFileExtension, getResolutionLabel } from '@/utils/common/format'
 import { recordDownload, recordView } from '@/utils/integrations/supabase'
+import { resolveWallpaperSeries } from '@/utils/wallpaper/identity'
 import { useDeviceMode } from '../composables/useDeviceMode'
 import DeviceMode from '../shared/DeviceMode.vue'
 
@@ -18,6 +19,7 @@ const props = defineProps({
 const emit = defineEmits(['close'])
 
 const { currentSeries } = useWallpaperType()
+const effectiveSeries = computed(() => resolveWallpaperSeries(props.wallpaper, currentSeries.value))
 const deviceMode = useDeviceMode()
 const scrollLock = useScrollLock()
 const popularityStore = usePopularityStore()
@@ -94,7 +96,7 @@ const resolution = computed(() => {
 const fileExt = computed(() => props.wallpaper ? getFileExtension(props.wallpaper.filename).toUpperCase() : '')
 const formattedSize = computed(() => props.wallpaper ? formatFileSize(props.wallpaper.size) : '')
 const formattedDate = computed(() => props.wallpaper ? formatDate(props.wallpaper.createdAt) : '')
-const canUseDeviceMode = computed(() => currentSeries.value === 'mobile')
+const canUseDeviceMode = computed(() => effectiveSeries.value === 'mobile')
 
 watch(() => props.isOpen, (open) => {
   if (open && props.wallpaper) {
@@ -112,7 +114,7 @@ watch(() => props.wallpaper, () => {
 
 function openModal() {
   trackWallpaperPreview(props.wallpaper)
-  recordView(props.wallpaper, currentSeries.value)
+  recordView(props.wallpaper, effectiveSeries.value)
   scrollLock.lock()
   isVisible.value = true
 }
@@ -136,8 +138,8 @@ async function handleDownload() {
   downloading.value = true
   try {
     await downloadFile(props.wallpaper.url, props.wallpaper.filename)
-    trackWallpaperDownload(props.wallpaper, currentSeries.value)
-    recordDownload(props.wallpaper, currentSeries.value)
+    trackWallpaperDownload(props.wallpaper, effectiveSeries.value)
+    recordDownload(props.wallpaper, effectiveSeries.value)
   }
   finally {
     downloading.value = false
@@ -326,14 +328,63 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 
 <style lang="scss" scoped>
 .mobile-modal {
+  --mobile-modal-overlay: linear-gradient(180deg, rgba(241, 245, 249, 0.96), rgba(226, 232, 240, 0.98));
+  --mobile-modal-panel-bg: rgba(255, 255, 255, 0.92);
+  --mobile-modal-panel-border: rgba(148, 163, 184, 0.22);
+  --mobile-modal-panel-shadow: rgba(15, 23, 42, 0.16);
+  --mobile-modal-close-bg: rgba(255, 255, 255, 0.9);
+  --mobile-modal-close-border: rgba(148, 163, 184, 0.22);
+  --mobile-modal-close-color: var(--color-text-primary);
+  --mobile-modal-preview-bg: linear-gradient(180deg, rgba(226, 232, 240, 0.7), rgba(248, 250, 252, 0.9));
+  --mobile-modal-loading-bg: linear-gradient(135deg, rgba(226, 232, 240, 0.72), rgba(241, 245, 249, 0.92));
+  --mobile-modal-info-bg: rgba(255, 255, 255, 0.76);
+  --mobile-modal-info-border: rgba(148, 163, 184, 0.18);
+  --mobile-modal-card-bg: rgba(248, 250, 252, 0.92);
+  --mobile-modal-card-border: rgba(148, 163, 184, 0.18);
+  --mobile-modal-title: var(--color-text-primary);
+  --mobile-modal-text: var(--color-text-primary);
+  --mobile-modal-muted: var(--color-text-secondary);
+  --mobile-modal-muted-soft: rgba(71, 85, 105, 0.82);
+  --mobile-modal-secondary-bg: rgba(226, 232, 240, 0.9);
+  --mobile-modal-secondary-text: rgba(51, 65, 85, 0.92);
+  --mobile-modal-secondary-border: rgba(148, 163, 184, 0.18);
+
   position: fixed;
   inset: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(26, 26, 46, 0.98), rgba(22, 33, 62, 0.98), rgba(15, 52, 96, 0.98));
+  background: var(--mobile-modal-overlay);
   padding: 16px;
+
+  [data-theme='dark'] & {
+    --mobile-modal-overlay: linear-gradient(
+      135deg,
+      rgba(26, 26, 46, 0.98),
+      rgba(22, 33, 62, 0.98),
+      rgba(15, 52, 96, 0.98)
+    );
+    --mobile-modal-panel-bg: rgba(255, 255, 255, 0.05);
+    --mobile-modal-panel-border: rgba(255, 255, 255, 0.1);
+    --mobile-modal-panel-shadow: rgba(0, 0, 0, 0.4);
+    --mobile-modal-close-bg: rgba(0, 0, 0, 0.4);
+    --mobile-modal-close-border: rgba(255, 255, 255, 0.1);
+    --mobile-modal-close-color: rgba(255, 255, 255, 0.9);
+    --mobile-modal-preview-bg: rgba(0, 0, 0, 0.2);
+    --mobile-modal-loading-bg: linear-gradient(135deg, rgba(26, 26, 46, 0.5), rgba(22, 33, 62, 0.5));
+    --mobile-modal-info-bg: rgba(255, 255, 255, 0.03);
+    --mobile-modal-info-border: rgba(255, 255, 255, 0.08);
+    --mobile-modal-card-bg: rgba(255, 255, 255, 0.05);
+    --mobile-modal-card-border: rgba(255, 255, 255, 0.08);
+    --mobile-modal-title: #fff;
+    --mobile-modal-text: #fff;
+    --mobile-modal-muted: rgba(255, 255, 255, 0.5);
+    --mobile-modal-muted-soft: rgba(255, 255, 255, 0.45);
+    --mobile-modal-secondary-bg: rgba(255, 255, 255, 0.06);
+    --mobile-modal-secondary-text: rgba(226, 232, 240, 0.82);
+    --mobile-modal-secondary-border: rgba(148, 163, 184, 0.14);
+  }
 
   &.is-device-mode {
     padding: 0;
@@ -346,15 +397,15 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
     flex-direction: column;
     width: 100%;
     max-width: 400px;
-    max-height: 90vh;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-height: calc(100dvh - 32px);
+    min-height: 0;
+    background: var(--mobile-modal-panel-bg);
+    border: 1px solid var(--mobile-modal-panel-border);
     border-radius: 24px;
     overflow: hidden;
     box-shadow:
-      0 20px 40px rgba(0, 0, 0, 0.4),
+      0 20px 40px var(--mobile-modal-panel-shadow),
       inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    // 平滑过渡，让尺寸变化丝滑
     transition:
       height 0.3s ease,
       max-height 0.3s ease;
@@ -381,15 +432,14 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
     justify-content: center;
     width: 36px;
     height: 36px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--mobile-modal-close-bg);
+    border: 1px solid var(--mobile-modal-close-border);
     border-radius: 50%;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--mobile-modal-close-color);
     transition: all 0.2s ease;
 
     &:active {
       transform: scale(0.92);
-      background: rgba(0, 0, 0, 0.6);
     }
 
     svg {
@@ -400,13 +450,13 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 
   &__preview {
     position: relative;
-    flex: 1;
-    min-height: 280px;
+    flex: 1 1 auto;
+    min-height: 220px;
     max-height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--mobile-modal-preview-bg);
     overflow: hidden;
     transition: max-height 0.3s ease;
 
@@ -416,7 +466,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, rgba(26, 26, 46, 0.5), rgba(22, 33, 62, 0.5));
+      background: var(--mobile-modal-loading-bg);
       z-index: 1;
     }
 
@@ -429,6 +479,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
       transition:
         opacity 0.4s ease,
         transform 0.4s ease;
+
       &.loaded {
         opacity: 1;
         transform: scale(1);
@@ -441,31 +492,37 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
     flex-direction: column;
     gap: 16px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.03);
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: var(--mobile-modal-info-bg);
+    border-top: 1px solid var(--mobile-modal-info-border);
   }
 }
 
 .info-header {
   .info-title {
+    margin: 0 0 8px;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    margin: 0 0 8px;
     letter-spacing: -0.3px;
-    word-break: break-all;
+    color: var(--mobile-modal-title);
+    word-break: break-word;
   }
+
   .info-category {
     display: flex;
     align-items: center;
     gap: 6px;
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.5);
     margin: 0;
+    font-size: 13px;
+    color: var(--mobile-modal-muted);
+
     svg {
       width: 14px;
       height: 14px;
-      color: rgba(255, 255, 255, 0.35);
+      color: var(--mobile-modal-muted-soft);
     }
   }
 }
@@ -514,16 +571,16 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   }
 
   &--secondary {
-    background: rgba(255, 255, 255, 0.06);
-    color: rgba(226, 232, 240, 0.82);
-    border: 1px solid rgba(148, 163, 184, 0.14);
+    background: var(--mobile-modal-secondary-bg);
+    color: var(--mobile-modal-secondary-text);
+    border: 1px solid var(--mobile-modal-secondary-border);
   }
 
   &--ai {
-    background: linear-gradient(180deg, rgba(34, 47, 76, 0.94), rgba(23, 33, 56, 0.9));
-    color: #dbeafe;
-    border: 1px solid rgba(96, 165, 250, 0.2);
-    box-shadow: inset 0 1px 0 rgba(191, 219, 254, 0.06);
+    background: var(--accent-gradient-soft);
+    color: var(--color-accent);
+    border: 1px solid var(--accent-border);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
     font-weight: 700;
     position: relative;
 
@@ -533,21 +590,25 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
       font-size: 10px;
     }
   }
+
   &--view,
   &--download {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+
     svg {
       width: 12px;
       height: 12px;
     }
   }
+
   &--view {
     background: rgba(59, 130, 246, 0.2);
     color: #60a5fa;
     border: 1px solid rgba(59, 130, 246, 0.3);
   }
+
   &--download {
     background: rgba(16, 185, 129, 0.2);
     color: #34d399;
@@ -560,8 +621,8 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   flex-direction: column;
   gap: 10px;
   padding: 14px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--mobile-modal-card-bg);
+  border: 1px solid var(--mobile-modal-card-border);
   border-radius: 14px;
 }
 
@@ -569,14 +630,20 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
+
   .detail-label {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.45);
+    color: var(--mobile-modal-muted-soft);
   }
+
   .detail-value {
+    flex: 1;
     font-size: 13px;
     font-weight: 600;
-    color: #fff;
+    color: var(--mobile-modal-text);
+    text-align: right;
+    word-break: break-word;
   }
 }
 
@@ -596,10 +663,12 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   font-size: 14px;
   font-weight: 600;
   transition: all 0.2s ease;
+
   svg {
     width: 18px;
     height: 18px;
   }
+
   &:active {
     transform: scale(0.96);
   }
@@ -609,15 +678,17 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
     color: white;
     border: none;
     box-shadow: 0 6px 20px var(--accent-shadow);
+
     &:disabled {
       opacity: 0.6;
     }
   }
 
   &--secondary {
-    background: rgba(255, 255, 255, 0.08);
-    color: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: var(--mobile-modal-secondary-bg);
+    color: var(--mobile-modal-secondary-text);
+    border: 1px solid var(--mobile-modal-secondary-border);
+
     &.is-active {
       background: var(--accent-gradient);
       color: white;
@@ -626,13 +697,14 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   }
 }
 
-// 动画 - 进入时淡入，离开时直接消失（避免看到滚动）
 .modal-enter-active {
   transition: opacity 0.3s ease;
 }
+
 .modal-leave-active {
   transition: none;
 }
+
 .modal-enter-from,
 .modal-leave-to {
   opacity: 0;
@@ -642,6 +714,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 .content-fade-leave-active {
   transition: opacity 0.3s ease;
 }
+
 .content-fade-enter-from,
 .content-fade-leave-to {
   opacity: 0;
@@ -651,56 +724,69 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 .fade-leave-active {
   transition: opacity 0.2s ease;
 }
+
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
 }
 
-// 小屏适配
 @media (max-height: 700px) {
   .mobile-modal {
     padding: 12px;
+
     &__content {
-      max-height: 95vh;
+      max-height: calc(100dvh - 24px);
       border-radius: 20px;
     }
+
     &__preview {
       min-height: 220px;
     }
+
     &__info {
       gap: 12px;
       padding: 14px;
+      padding-bottom: calc(14px + env(safe-area-inset-bottom, 0px));
     }
   }
+
   .info-header .info-title {
     font-size: 16px;
     margin-bottom: 4px;
   }
+
   .info-header .info-category {
     font-size: 12px;
   }
+
   .info-tags {
     gap: 6px;
   }
+
   .tag {
     padding: 4px 10px;
     font-size: 11px;
   }
+
   .info-details {
     gap: 8px;
     padding: 12px;
   }
+
   .detail-row .detail-label,
   .detail-row .detail-value {
     font-size: 12px;
   }
+
   .info-actions {
     gap: 10px;
   }
+
   .action-btn {
     padding: 12px 14px;
     font-size: 13px;
     border-radius: 12px;
+
     svg {
       width: 16px;
       height: 16px;
@@ -711,40 +797,50 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 @media (max-height: 570px) {
   .mobile-modal {
     padding: 8px;
+
     &__content {
-      max-height: 98vh;
+      max-height: calc(100dvh - 16px);
       border-radius: 16px;
     }
+
     &__close {
       width: 32px;
       height: 32px;
       top: 8px;
       right: 8px;
+
       svg {
         width: 16px;
         height: 16px;
       }
     }
+
     &__preview {
       min-height: 180px;
     }
+
     &__info {
       gap: 10px;
       padding: 12px;
+      padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     }
   }
+
   .info-header .info-title {
     font-size: 15px;
   }
+
   .info-details {
     padding: 10px;
     gap: 6px;
     border-radius: 10px;
   }
+
   .action-btn {
     padding: 10px 12px;
     font-size: 12px;
     border-radius: 10px;
+
     svg {
       width: 14px;
       height: 14px;
@@ -755,24 +851,31 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 @media (max-width: 360px) {
   .mobile-modal {
     padding: 10px;
+
     &__info {
       padding: 12px;
+      padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     }
   }
+
   .info-header .info-title {
     font-size: 15px;
   }
+
   .tag {
     padding: 4px 8px;
     font-size: 11px;
   }
+
   .action-btn {
     padding: 12px 10px;
     font-size: 12px;
     gap: 6px;
+
     span {
       display: none;
     }
+
     svg {
       width: 20px;
       height: 20px;
