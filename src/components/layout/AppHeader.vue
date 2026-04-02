@@ -467,62 +467,60 @@ watch(isMobile, () => {
           </svg>
         </a>
 
-        <template v-if="isAuthConfigured">
-          <router-link
-            v-if="!isAuthenticated"
-            :to="authEntryRoute"
-            class="header-auth-link"
-            aria-label="登录账号"
-          >
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
-              <path d="M10 17l5-5-5-5" />
-              <path d="M15 12H3" />
-            </svg>
-            <span>登录</span>
-          </router-link>
+        <router-link
+          v-if="!isAuthenticated"
+          :to="authEntryRoute"
+          class="header-auth-link"
+          aria-label="登录账号"
+        >
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+            <path d="M10 17l5-5-5-5" />
+            <path d="M15 12H3" />
+          </svg>
+          <span>登录</span>
+        </router-link>
 
-          <el-dropdown
-            v-else
-            trigger="hover"
-            placement="bottom-end"
-            popper-class="header-account-dropdown-menu"
-            @command="handleAccountCommand"
+        <el-dropdown
+          v-else-if="isAuthConfigured"
+          trigger="hover"
+          placement="bottom-end"
+          popper-class="header-account-dropdown-menu"
+          @command="handleAccountCommand"
+        >
+          <button
+            class="header-account-trigger"
+            type="button"
+            :aria-label="`${authDisplayName || '当前账号'} 菜单`"
           >
-            <button
-              class="header-account-trigger"
-              type="button"
-              :aria-label="`${authDisplayName || '当前账号'} 菜单`"
-            >
-              <RemoteAvatar
-                :sources="avatarCandidates"
-                :src="authAvatarUrl"
-                :alt="`${authDisplayName} 头像`"
-                :initial="authInitial"
-                :fallback-style="authAvatarStyle"
-                image-class="header-account-trigger__avatar-image"
-                fallback-class="header-account-trigger__avatar"
-              />
-            </button>
+            <RemoteAvatar
+              :sources="avatarCandidates"
+              :src="authAvatarUrl"
+              :alt="`${authDisplayName} 头像`"
+              :initial="authInitial"
+              :fallback-style="authAvatarStyle"
+              image-class="header-account-trigger__avatar-image"
+              fallback-class="header-account-trigger__avatar"
+            />
+          </button>
 
-            <template #dropdown>
-              <el-dropdown-menu>
-                <el-dropdown-item command="account">
-                  个人信息
-                </el-dropdown-item>
-                <el-dropdown-item command="collections">
-                  收藏夹
-                </el-dropdown-item>
-                <el-dropdown-item command="likes">
-                  我的喜欢
-                </el-dropdown-item>
-                <el-dropdown-item command="signout" divided>
-                  退出登录
-                </el-dropdown-item>
-              </el-dropdown-menu>
-            </template>
-          </el-dropdown>
-        </template>
+          <template #dropdown>
+            <el-dropdown-menu>
+              <el-dropdown-item command="account">
+                个人信息
+              </el-dropdown-item>
+              <el-dropdown-item command="collections">
+                收藏夹
+              </el-dropdown-item>
+              <el-dropdown-item command="likes">
+                我的喜欢
+              </el-dropdown-item>
+              <el-dropdown-item command="signout" divided>
+                退出登录
+              </el-dropdown-item>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
       </div>
 
       <!-- 移动端操作栏 -->

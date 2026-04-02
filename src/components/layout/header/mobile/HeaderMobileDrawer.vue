@@ -220,7 +220,7 @@ defineEmits(['close', 'navigate', 'signout', 'update:show'])
               <span>关于</span>
             </button>
             <RouterLink
-              v-if="isAuthConfigured && !isAuthenticated"
+              v-if="!isAuthenticated"
               class="nav-card"
               :to="authEntryRoute"
               @click="$emit('close')"
