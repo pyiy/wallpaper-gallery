@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-06T18:31:07.349Z",
+  "generatedAt": "2026-04-07T18:31:14.386Z",
   "series": "desktop",
   "total": 804,
   "tags": [
     {
       "tag": "风景",
-      "score": 3065,
-      "views": 2556,
+      "score": 3049,
+      "views": 2557,
       "downloads": 1071,
       "wallpaperCount": 51,
       "series": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 2849,
+      "score": 2828,
       "views": 2680,
       "downloads": 875,
       "wallpaperCount": 145,
@@ -69,9 +69,9 @@
     },
     {
       "tag": "插画",
-      "score": 2111,
-      "views": 2080,
-      "downloads": 640,
+      "score": 2103,
+      "views": 2089,
+      "downloads": 643,
       "wallpaperCount": 125,
       "series": [
         "desktop"
@@ -101,9 +101,9 @@
     },
     {
       "tag": "人像",
-      "score": 2041,
-      "views": 2234,
-      "downloads": 521,
+      "score": 2039,
+      "views": 2243,
+      "downloads": 524,
       "wallpaperCount": 89,
       "series": [
         "desktop"
@@ -133,7 +133,7 @@
     },
     {
       "tag": "二次元",
-      "score": 1309,
+      "score": 1295,
       "views": 1228,
       "downloads": 365,
       "wallpaperCount": 78,
@@ -165,9 +165,9 @@
     },
     {
       "tag": "魅力",
-      "score": 836,
-      "views": 1047,
-      "downloads": 192,
+      "score": 837,
+      "views": 1050,
+      "downloads": 193,
       "wallpaperCount": 23,
       "series": [
         "desktop"
@@ -197,7 +197,7 @@
     },
     {
       "tag": "雪山",
-      "score": 785,
+      "score": 781,
       "views": 671,
       "downloads": 291,
       "wallpaperCount": 12,
@@ -229,8 +229,8 @@
     },
     {
       "tag": "国风",
-      "score": 601,
-      "views": 546,
+      "score": 598,
+      "views": 551,
       "downloads": 173,
       "wallpaperCount": 40,
       "series": [
@@ -261,9 +261,9 @@
     },
     {
       "tag": "文字",
-      "score": 593,
-      "views": 597,
-      "downloads": 195,
+      "score": 595,
+      "views": 601,
+      "downloads": 196,
       "wallpaperCount": 29,
       "series": [
         "desktop"
@@ -293,7 +293,7 @@
     },
     {
       "tag": "海滨",
-      "score": 576,
+      "score": 574,
       "views": 354,
       "downloads": 157,
       "wallpaperCount": 9,
@@ -326,8 +326,8 @@
     {
       "tag": "场景",
       "score": 543,
-      "views": 549,
-      "downloads": 169,
+      "views": 550,
+      "downloads": 170,
       "wallpaperCount": 22,
       "series": [
         "desktop"
@@ -357,7 +357,7 @@
     },
     {
       "tag": "清新",
-      "score": 530,
+      "score": 524,
       "views": 530,
       "downloads": 137,
       "wallpaperCount": 24,
@@ -389,7 +389,7 @@
     },
     {
       "tag": "星空",
-      "score": 515,
+      "score": 511,
       "views": 450,
       "downloads": 176,
       "wallpaperCount": 7,
@@ -421,7 +421,7 @@
     },
     {
       "tag": "政治",
-      "score": 497,
+      "score": 494,
       "views": 416,
       "downloads": 183,
       "wallpaperCount": 9,
@@ -453,7 +453,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 494,
+      "score": 491,
       "views": 421,
       "downloads": 190,
       "wallpaperCount": 15,
@@ -485,9 +485,9 @@
     },
     {
       "tag": "夜景",
-      "score": 476,
-      "views": 427,
-      "downloads": 164,
+      "score": 475,
+      "views": 429,
+      "downloads": 165,
       "wallpaperCount": 7,
       "series": [
         "desktop"
@@ -517,7 +517,7 @@
     },
     {
       "tag": "日落",
-      "score": 449,
+      "score": 448,
       "views": 356,
       "downloads": 167,
       "wallpaperCount": 9,
@@ -549,7 +549,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 448,
+      "score": 445,
       "views": 361,
       "downloads": 146,
       "wallpaperCount": 23,
@@ -581,8 +581,8 @@
     },
     {
       "tag": "天空",
-      "score": 427,
-      "views": 362,
+      "score": 424,
+      "views": 363,
       "downloads": 172,
       "wallpaperCount": 4,
       "series": [
@@ -609,9 +609,9 @@
     },
     {
       "tag": "创意",
-      "score": 425,
-      "views": 393,
-      "downloads": 133,
+      "score": 423,
+      "views": 395,
+      "downloads": 134,
       "wallpaperCount": 25,
       "series": [
         "desktop"
@@ -641,7 +641,7 @@
     },
     {
       "tag": "小屋",
-      "score": 362,
+      "score": 360,
       "views": 196,
       "downloads": 76,
       "wallpaperCount": 2,
@@ -661,7 +661,7 @@
     },
     {
       "tag": "优雅",
-      "score": 347,
+      "score": 344,
       "views": 421,
       "downloads": 93,
       "wallpaperCount": 9,
@@ -693,8 +693,8 @@
     },
     {
       "tag": "云海",
-      "score": 336,
-      "views": 265,
+      "score": 334,
+      "views": 266,
       "downloads": 136,
       "wallpaperCount": 3,
       "series": [
@@ -717,9 +717,9 @@
     },
     {
       "tag": "氛围感",
-      "score": 324,
-      "views": 333,
-      "downloads": 93,
+      "score": 328,
+      "views": 335,
+      "downloads": 95,
       "wallpaperCount": 18,
       "series": [
         "desktop"
@@ -749,7 +749,7 @@
     },
     {
       "tag": "地球",
-      "score": 318,
+      "score": 316,
       "views": 304,
       "downloads": 121,
       "wallpaperCount": 1,
@@ -765,7 +765,7 @@
     },
     {
       "tag": "云层",
-      "score": 318,
+      "score": 316,
       "views": 304,
       "downloads": 121,
       "wallpaperCount": 1,
@@ -813,8 +813,8 @@
     },
     {
       "tag": "城堡",
-      "score": 267,
-      "views": 224,
+      "score": 266,
+      "views": 225,
       "downloads": 112,
       "wallpaperCount": 1,
       "series": [
@@ -861,7 +861,7 @@
     },
     {
       "tag": "晨曦",
-      "score": 229,
+      "score": 227,
       "views": 176,
       "downloads": 89,
       "wallpaperCount": 4,
@@ -889,7 +889,7 @@
     },
     {
       "tag": "游戏",
-      "score": 228,
+      "score": 226,
       "views": 291,
       "downloads": 64,
       "wallpaperCount": 10,
@@ -921,7 +921,7 @@
     },
     {
       "tag": "少女",
-      "score": 218,
+      "score": 217,
       "views": 194,
       "downloads": 56,
       "wallpaperCount": 9,
@@ -953,7 +953,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 217,
+      "score": 215,
       "views": 160,
       "downloads": 76,
       "wallpaperCount": 9,
@@ -985,7 +985,7 @@
     },
     {
       "tag": "简约风",
-      "score": 198,
+      "score": 197,
       "views": 186,
       "downloads": 82,
       "wallpaperCount": 1,
@@ -1025,8 +1025,8 @@
     },
     {
       "tag": "卡通",
-      "score": 195,
-      "views": 173,
+      "score": 192,
+      "views": 174,
       "downloads": 46,
       "wallpaperCount": 12,
       "series": [
@@ -1038,16 +1038,16 @@
           "cdnTag": "v1.1.9"
         },
         {
-          "thumbnail": "/thumbnail/desktop/插画/卡通/Q%E7%89%88%E4%BA%BA%E7%89%A9-%E4%BD%9B%E7%B3%BB%E8%AF%AD%E5%BD%95.webp",
-          "cdnTag": "v1.1.57"
-        },
-        {
           "thumbnail": "/thumbnail/desktop/插画/卡通/%E5%86%AC%E5%AD%A3-%E5%86%B0%E5%B1%8B-%E5%86%B0%E5%B7%9D.webp",
           "cdnTag": "v1.1.31"
         },
         {
           "thumbnail": "/thumbnail/desktop/IP形象/一二布布/%E4%B8%80%E4%BA%8C%E5%B8%83%E5%B8%83-%E5%8D%A1%E9%80%9A-%E5%B0%8F%E7%86%8A.webp",
           "cdnTag": "v1.2.28"
+        },
+        {
+          "thumbnail": "/thumbnail/desktop/插画/卡通/Q%E7%89%88%E4%BA%BA%E7%89%A9-%E4%BD%9B%E7%B3%BB%E8%AF%AD%E5%BD%95.webp",
+          "cdnTag": "v1.1.57"
         },
         {
           "thumbnail": "/thumbnail/desktop/IP形象/一二布布/%E4%B8%80%E4%BA%8C%E5%B8%83%E5%B8%83-%E5%8D%A1%E9%80%9A-%E5%9B%B4%E5%B7%BE.webp",
@@ -1057,7 +1057,7 @@
     },
     {
       "tag": "雪山湖泊晚霞",
-      "score": 189,
+      "score": 188,
       "views": 187,
       "downloads": 75,
       "wallpaperCount": 1,
@@ -1073,7 +1073,7 @@
     },
     {
       "tag": "影视",
-      "score": 184,
+      "score": 183,
       "views": 171,
       "downloads": 73,
       "wallpaperCount": 6,
@@ -1105,7 +1105,7 @@
     },
     {
       "tag": "鬼灭之刃",
-      "score": 180,
+      "score": 179,
       "views": 113,
       "downloads": 34,
       "wallpaperCount": 3,
@@ -1129,8 +1129,8 @@
     },
     {
       "tag": "海边",
-      "score": 175,
-      "views": 160,
+      "score": 176,
+      "views": 161,
       "downloads": 58,
       "wallpaperCount": 4,
       "series": [
