@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-16T18:43:57.845Z",
+  "generatedAt": "2026-04-17T18:29:27.567Z",
   "series": "avatar",
   "total": 422,
   "tags": [
     {
       "tag": "人像",
-      "score": 424,
+      "score": 423,
       "views": 330,
       "downloads": 170,
       "wallpaperCount": 102,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 179,
+      "score": 178,
       "views": 142,
       "downloads": 76,
       "wallpaperCount": 29,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 147,
+      "score": 146,
       "views": 117,
       "downloads": 63,
       "wallpaperCount": 16,
@@ -1036,22 +1036,6 @@
       ]
     },
     {
-      "tag": "戴眼镜男孩肩上趴着小猫",
-      "score": 18,
-      "views": 18,
-      "downloads": 7,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/%E6%88%B4%E7%9C%BC%E9%95%9C%E7%94%B7%E5%AD%A9%E8%82%A9%E4%B8%8A%E8%B6%B4%E7%9D%80%E5%B0%8F%E7%8C%AB.webp",
-          "cdnTag": "v1.1.4"
-        }
-      ]
-    },
-    {
       "tag": "仰光捧花女生",
       "score": 18,
       "views": 17,
@@ -1064,6 +1048,22 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/氛围感/%E4%BB%B0%E5%85%89%E6%8D%A7%E8%8A%B1%E5%A5%B3%E7%94%9F.webp",
           "cdnTag": "v1.1.11"
+        }
+      ]
+    },
+    {
+      "tag": "戴眼镜男孩肩上趴着小猫",
+      "score": 17,
+      "views": 18,
+      "downloads": 7,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/%E6%88%B4%E7%9C%BC%E9%95%9C%E7%94%B7%E5%AD%A9%E8%82%A9%E4%B8%8A%E8%B6%B4%E7%9D%80%E5%B0%8F%E7%8C%AB.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
