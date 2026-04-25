@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-24T18:06:52.107Z",
+  "generatedAt": "2026-04-25T18:06:10.041Z",
   "series": "avatar",
   "total": 426,
   "tags": [
     {
       "tag": "人像",
-      "score": 423,
+      "score": 422,
       "views": 342,
       "downloads": 173,
       "wallpaperCount": 102,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 253,
+      "score": 252,
       "views": 199,
       "downloads": 108,
       "wallpaperCount": 51,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "动漫",
-      "score": 206,
+      "score": 205,
       "views": 230,
       "downloads": 78,
       "wallpaperCount": 73,
@@ -78,11 +78,11 @@
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/%E6%88%B4%E8%80%B3%E6%9C%BA%E9%BA%A6%E5%BD%93%E5%8A%B3%E5%A4%96%E5%8D%96.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/%E5%8A%9E%E5%85%AC%E7%94%B5%E8%84%91%E5%89%8D%E7%9A%B1%E7%9C%89.webp",
           "cdnTag": "v1.1.13"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/%E5%8A%9E%E5%85%AC%E7%94%B5%E8%84%91%E5%89%8D%E7%9A%B1%E7%9C%89.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/%E6%88%B4%E8%80%B3%E6%9C%BA%E9%BA%A6%E5%BD%93%E5%8A%B3%E5%A4%96%E5%8D%96.webp",
           "cdnTag": "v1.1.13"
         },
         {
@@ -341,7 +341,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 60,
+      "score": 59,
       "views": 63,
       "downloads": 23,
       "wallpaperCount": 15,
@@ -869,7 +869,7 @@
     },
     {
       "tag": "戴耳机麦当劳外卖",
-      "score": 24,
+      "score": 23,
       "views": 31,
       "downloads": 8,
       "wallpaperCount": 1,
