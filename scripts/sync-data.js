@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /**
  * 数据同步脚本
  *

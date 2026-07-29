@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
@@ -289,6 +287,17 @@ async function markRemovedAssets(supabase, assetKeys) {
   }
 }
 
+function describeSupabaseError(error) {
+  if (error?.code === 'PGRST205' || /Could not find the table/i.test(error?.message || '')) {
+    return [
+      `Supabase 中缺少 wallpaper_assets 表：${error.message}`,
+      '请先在目标 Supabase 项目的 SQL Editor 依次执行 scripts/supabase-init.sql 和 scripts/supabase-user-system.sql。',
+    ].join('\n')
+  }
+
+  return error?.message || String(error)
+}
+
 async function main() {
   if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
     throw new Error('缺少 VITE_SUPABASE_URL 或 SUPABASE_SERVICE_ROLE_KEY，无法同步 wallpaper_assets。')
@@ -324,7 +333,7 @@ async function main() {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error) => {
-    console.error('\n❌ 同步 wallpaper_assets 失败:', error.message)
+    console.error('\n❌ 同步 wallpaper_assets 失败:', describeSupabaseError(error))
     process.exit(1)
   })
 }

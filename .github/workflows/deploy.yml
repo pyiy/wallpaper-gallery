@@ -19,6 +19,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      HAS_SUPABASE_SYNC: ${{ secrets.VITE_SUPABASE_URL != '' && secrets.SUPABASE_SERVICE_ROLE_KEY != '' }}
 
     steps:
       - name: Checkout
@@ -88,6 +90,7 @@ jobs:
           fi
 
       - name: Sync wallpaper assets to Supabase
+        if: env.HAS_SUPABASE_SYNC == 'true'
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -102,10 +105,9 @@ jobs:
 
       # 6. 将构建产物推送到 Cloudflare Pages (核心步骤：解决 SEO 和 200 路由)
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3.15.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: wallpaper-gallery-prod # ⚠️ 请确保这与你的 Cloudflare Pages 项目名一致
-          directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # ⚠️ project-name 需与你的 Cloudflare Pages 项目名一致
+          command: pages deploy dist --project-name=wallpaper-gallery-prod --branch=main
