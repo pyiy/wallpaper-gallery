@@ -287,8 +287,12 @@ async function markRemovedAssets(supabase, assetKeys) {
   }
 }
 
+function isMissingAssetsTable(error) {
+  return error?.code === 'PGRST205' || /Could not find the table/i.test(error?.message || '')
+}
+
 function describeSupabaseError(error) {
-  if (error?.code === 'PGRST205' || /Could not find the table/i.test(error?.message || '')) {
+  if (isMissingAssetsTable(error)) {
     return [
       `Supabase 中缺少 wallpaper_assets 表：${error.message}`,
       '请先在目标 Supabase 项目的 SQL Editor 依次执行 scripts/supabase-init.sql 和 scripts/supabase-user-system.sql。',
@@ -321,14 +325,25 @@ async function main() {
 
   console.log(`📦 解析完成，共 ${assets.length} 条壁纸资产，开始同步到 Supabase...`)
 
-  const existingKeys = await fetchExistingAssetKeys(supabase)
-  const currentKeySet = new Set(assets.map(item => item.asset_key))
-  const removedKeys = existingKeys.filter(assetKey => !currentKeySet.has(assetKey))
+  try {
+    const existingKeys = await fetchExistingAssetKeys(supabase)
+    const currentKeySet = new Set(assets.map(item => item.asset_key))
+    const removedKeys = existingKeys.filter(assetKey => !currentKeySet.has(assetKey))
 
-  await upsertWallpaperAssets(supabase, assets)
-  await markRemovedAssets(supabase, removedKeys)
+    await upsertWallpaperAssets(supabase, assets)
+    await markRemovedAssets(supabase, removedKeys)
 
-  console.log(`✅ wallpaper_assets 同步完成：active=${assets.length} removed=${removedKeys.length}`)
+    console.log(`✅ wallpaper_assets 同步完成：active=${assets.length} removed=${removedKeys.length}`)
+  }
+  catch (error) {
+    if (isMissingAssetsTable(error)) {
+      console.warn(`⚠️ 跳过 wallpaper_assets 同步：${describeSupabaseError(error)}`)
+      console.warn('壁纸数据仍由 CDN 提供，静态站不受影响；建表后重新运行即可启用用户系统。')
+      return
+    }
+
+    throw error
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
