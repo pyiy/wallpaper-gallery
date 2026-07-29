@@ -1,30 +1,20 @@
 {
-  "exportedAt": "2026-07-28 18:54:11",
+  "exportedAt": "2026-07-29 18:29:28",
   "series": {
     "desktop": {
-      "count": 500,
-      "totalViews": 22710,
-      "totalDownloads": 7806
+      "error": "Failed to parse URL from ﻿https://hztkecrtkdmcggqwwotn.supabase.co/rest/v1/rpc/get_hot_stats"
     },
     "mobile": {
-      "count": 500,
-      "totalViews": 13071,
-      "totalDownloads": 4400
+      "error": "Failed to parse URL from ﻿https://hztkecrtkdmcggqwwotn.supabase.co/rest/v1/rpc/get_hot_stats"
     },
     "avatar": {
-      "count": 441,
-      "totalViews": 1537,
-      "totalDownloads": 762
+      "error": "Failed to parse URL from ﻿https://hztkecrtkdmcggqwwotn.supabase.co/rest/v1/rpc/get_hot_stats"
     },
     "video": {
-      "count": 23,
-      "totalViews": 821,
-      "totalDownloads": 90
+      "error": "Failed to parse URL from ﻿https://hztkecrtkdmcggqwwotn.supabase.co/rest/v1/rpc/get_hot_stats"
     },
     "bing": {
-      "count": 497,
-      "totalViews": 1704,
-      "totalDownloads": 871
+      "error": "Failed to parse URL from ﻿https://hztkecrtkdmcggqwwotn.supabase.co/rest/v1/rpc/get_hot_stats"
     }
   }
 }
