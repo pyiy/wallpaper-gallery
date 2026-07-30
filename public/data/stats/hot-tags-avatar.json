@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:29:28.401Z",
+  "generatedAt": "2026-07-30T18:51:59.576Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 347,
+      "score": 343,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -389,7 +389,7 @@
     },
     {
       "tag": "搞怪",
-      "score": 65,
+      "score": 64,
       "views": 98,
       "downloads": 33,
       "wallpaperCount": 35,
@@ -410,12 +410,12 @@
           "cdnTag": "v1.1.53"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_150149_668.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_2026-01-23_165024_232.webp",
           "cdnTag": "v1.1.53"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_150149_668.webp",
+          "cdnTag": "v1.2.57"
         }
       ]
     },
@@ -689,7 +689,7 @@
     },
     {
       "tag": "哆啦A梦",
-      "score": 47,
+      "score": 46,
       "views": 63,
       "downloads": 27,
       "wallpaperCount": 11,
@@ -816,8 +816,24 @@
       ]
     },
     {
-      "tag": "星空",
+      "tag": "饮品",
       "score": 36,
+      "views": 10,
+      "downloads": 25,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
+          "cdnTag": "v1.2.33"
+        }
+      ]
+    },
+    {
+      "tag": "星空",
+      "score": 35,
       "views": 14,
       "downloads": 31,
       "wallpaperCount": 3,
@@ -836,22 +852,6 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_494_4.webp",
           "cdnTag": "v1.1.42"
-        }
-      ]
-    },
-    {
-      "tag": "饮品",
-      "score": 36,
-      "views": 10,
-      "downloads": 25,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
-          "cdnTag": "v1.2.33"
         }
       ]
     },
@@ -985,7 +985,7 @@
     },
     {
       "tag": "海贼王",
-      "score": 28,
+      "score": 27,
       "views": 35,
       "downloads": 14,
       "wallpaperCount": 12,
