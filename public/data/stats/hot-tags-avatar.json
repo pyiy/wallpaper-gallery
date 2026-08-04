@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T19:00:11.681Z",
+  "generatedAt": "2026-08-04T19:00:39.155Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 167,
+      "score": 166,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 166,
+      "score": 165,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 136,
+      "score": 135,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 72,
+      "score": 71,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -1096,8 +1096,28 @@
       ]
     },
     {
-      "tag": "搞笑",
+      "tag": "Q版",
       "score": 24,
+      "views": 29,
+      "downloads": 12,
+      "wallpaperCount": 2,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202255_660_4.webp",
+          "cdnTag": "v1.2.8"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/微信图片_20260119095916_475_4.webp",
+          "cdnTag": "v1.1.40"
+        }
+      ]
+    },
+    {
+      "tag": "搞笑",
+      "score": 23,
       "views": 27,
       "downloads": 15,
       "wallpaperCount": 3,
@@ -1116,26 +1136,6 @@
         {
           "thumbnail": "/thumbnail/avatar/通用/微信图片_2026-01-23_165101_406.webp",
           "cdnTag": "v1.1.53"
-        }
-      ]
-    },
-    {
-      "tag": "Q版",
-      "score": 24,
-      "views": 29,
-      "downloads": 12,
-      "wallpaperCount": 2,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202255_660_4.webp",
-          "cdnTag": "v1.2.8"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/微信图片_20260119095916_475_4.webp",
-          "cdnTag": "v1.1.40"
         }
       ]
     },
