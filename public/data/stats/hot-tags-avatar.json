@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T18:07:47.356Z",
+  "generatedAt": "2026-08-08T17:53:30.572Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 331,
+      "score": 330,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -62,7 +62,7 @@
           "cdnTag": "v1.1.13"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
           "cdnTag": "v1.2.33"
         }
       ]
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 164,
+      "score": 163,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 134,
+      "score": 133,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -357,7 +357,7 @@
     },
     {
       "tag": "少年",
-      "score": 66,
+      "score": 65,
       "views": 40,
       "downloads": 43,
       "wallpaperCount": 9,
@@ -370,11 +370,11 @@
           "cdnTag": "v1.2.33"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
           "cdnTag": "v1.2.33"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
           "cdnTag": "v1.2.33"
         },
         {
@@ -608,22 +608,6 @@
       ]
     },
     {
-      "tag": "戴耳机",
-      "score": 53,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
       "tag": "甜美",
       "score": 53,
       "views": 53,
@@ -684,6 +668,22 @@
         {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_20260310202244_646_4.webp",
           "cdnTag": "v1.2.8"
+        }
+      ]
+    },
+    {
+      "tag": "戴耳机",
+      "score": 52,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
         }
       ]
     },
