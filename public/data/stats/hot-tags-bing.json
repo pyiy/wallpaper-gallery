@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-09T17:53:54.691Z",
+  "generatedAt": "2026-08-10T18:09:14.668Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 216,
+      "score": 214,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -356,19 +356,6 @@
       ]
     },
     {
-      "tag": "大自然的波普艺术",
-      "score": 10,
-      "views": 13,
-      "downloads": 6,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-19.jpg"
-      ]
-    },
-    {
       "tag": "每一步，都是传承",
       "score": 10,
       "views": 14,
@@ -408,6 +395,19 @@
       ]
     },
     {
+      "tag": "大自然的波普艺术",
+      "score": 9,
+      "views": 13,
+      "downloads": 6,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-19.jpg"
+      ]
+    },
+    {
       "tag": "圆周率的古老启示",
       "score": 9,
       "views": 8,
@@ -418,19 +418,6 @@
       ],
       "topWallpapers": [
         "bing-2026-03-14.jpg"
-      ]
-    },
-    {
-      "tag": "高角羚群紧急戒备",
-      "score": 9,
-      "views": 20,
-      "downloads": 3,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-05.jpg"
       ]
     },
     {
@@ -470,6 +457,19 @@
       ],
       "topWallpapers": [
         "bing-2026-03-21.jpg"
+      ]
+    },
+    {
+      "tag": "高角羚群紧急戒备",
+      "score": 8,
+      "views": 20,
+      "downloads": 3,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-05.jpg"
       ]
     },
     {
