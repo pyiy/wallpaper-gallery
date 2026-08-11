@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T18:09:14.703Z",
+  "generatedAt": "2026-08-11T18:12:02.213Z",
   "series": "all",
   "total": 1946,
   "tags": [
     {
       "tag": "人像",
-      "score": 7879,
+      "score": 7851,
       "views": 11664,
       "downloads": 3445,
       "wallpaperCount": 407,
@@ -24,7 +24,7 @@
     },
     {
       "tag": "风景",
-      "score": 6129,
+      "score": 6103,
       "views": 7980,
       "downloads": 3291,
       "wallpaperCount": 170,
@@ -44,7 +44,7 @@
     },
     {
       "tag": "插画",
-      "score": 4504,
+      "score": 4493,
       "views": 6095,
       "downloads": 2229,
       "wallpaperCount": 250,
@@ -63,7 +63,7 @@
     },
     {
       "tag": "动漫",
-      "score": 3967,
+      "score": 3957,
       "views": 6037,
       "downloads": 2071,
       "wallpaperCount": 298,
@@ -83,7 +83,7 @@
     },
     {
       "tag": "魅力",
-      "score": 3482,
+      "score": 3471,
       "views": 5408,
       "downloads": 1366,
       "wallpaperCount": 67,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "清新",
-      "score": 2465,
+      "score": 2452,
       "views": 3219,
       "downloads": 1133,
       "wallpaperCount": 92,
@@ -120,7 +120,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 1540,
+      "score": 1536,
       "views": 2210,
       "downloads": 776,
       "wallpaperCount": 131,
@@ -139,7 +139,7 @@
     },
     {
       "tag": "二次元",
-      "score": 1451,
+      "score": 1447,
       "views": 2306,
       "downloads": 724,
       "wallpaperCount": 109,
@@ -158,7 +158,7 @@
     },
     {
       "tag": "创意",
-      "score": 1372,
+      "score": 1367,
       "views": 1909,
       "downloads": 714,
       "wallpaperCount": 104,
@@ -177,7 +177,7 @@
     },
     {
       "tag": "长发",
-      "score": 1271,
+      "score": 1263,
       "views": 1582,
       "downloads": 493,
       "wallpaperCount": 40,
@@ -196,7 +196,7 @@
     },
     {
       "tag": "日落",
-      "score": 1260,
+      "score": 1255,
       "views": 1381,
       "downloads": 659,
       "wallpaperCount": 33,
@@ -215,7 +215,7 @@
     },
     {
       "tag": "星空",
-      "score": 1159,
+      "score": 1156,
       "views": 1500,
       "downloads": 647,
       "wallpaperCount": 29,
@@ -234,7 +234,7 @@
     },
     {
       "tag": "雪山",
-      "score": 1144,
+      "score": 1140,
       "views": 1586,
       "downloads": 655,
       "wallpaperCount": 28,
@@ -253,7 +253,7 @@
     },
     {
       "tag": "国风",
-      "score": 962,
+      "score": 959,
       "views": 1462,
       "downloads": 417,
       "wallpaperCount": 55,
@@ -263,15 +263,15 @@
       ],
       "topWallpapers": [
         "20260424165827.jpeg",
-        "20260406200642.jpeg",
         "cg美女-佳人.png",
+        "20260406200642.jpeg",
         "20260408171652.jpeg",
         "20260424_165941.jpeg"
       ]
     },
     {
       "tag": "少女",
-      "score": 962,
+      "score": 957,
       "views": 1172,
       "downloads": 447,
       "wallpaperCount": 54,
@@ -290,7 +290,7 @@
     },
     {
       "tag": "海滨",
-      "score": 935,
+      "score": 931,
       "views": 1145,
       "downloads": 473,
       "wallpaperCount": 26,
@@ -309,7 +309,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 850,
+      "score": 846,
       "views": 1069,
       "downloads": 438,
       "wallpaperCount": 70,
@@ -321,15 +321,15 @@
       ],
       "topWallpapers": [
         "20260408170413.jpeg",
-        "晴空-治愈-猫.png",
         "20260406200057.jpeg",
         "雨中绿意小猫.jpeg",
-        "戴耳机.jpg"
+        "戴耳机.jpg",
+        "晴空-治愈-猫.png"
       ]
     },
     {
       "tag": "夜景",
-      "score": 811,
+      "score": 808,
       "views": 1138,
       "downloads": 417,
       "wallpaperCount": 22,
@@ -347,7 +347,7 @@
     },
     {
       "tag": "花卉",
-      "score": 810,
+      "score": 803,
       "views": 936,
       "downloads": 402,
       "wallpaperCount": 21,
@@ -365,7 +365,7 @@
     },
     {
       "tag": "文字",
-      "score": 788,
+      "score": 785,
       "views": 1183,
       "downloads": 426,
       "wallpaperCount": 46,
@@ -383,7 +383,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 759,
+      "score": 757,
       "views": 1058,
       "downloads": 368,
       "wallpaperCount": 83,
@@ -403,7 +403,7 @@
     },
     {
       "tag": "丝袜",
-      "score": 742,
+      "score": 739,
       "views": 1259,
       "downloads": 258,
       "wallpaperCount": 3,
@@ -419,7 +419,7 @@
     },
     {
       "tag": "场景",
-      "score": 737,
+      "score": 735,
       "views": 1115,
       "downloads": 375,
       "wallpaperCount": 31,
@@ -436,7 +436,7 @@
     },
     {
       "tag": "蓝天",
-      "score": 715,
+      "score": 710,
       "views": 786,
       "downloads": 330,
       "wallpaperCount": 11,
@@ -450,12 +450,12 @@
         "20260406200537.png",
         "20260406201611.jpeg",
         "晴天-蓝天白云.png",
-        "花朵-蓝天.png"
+        "Ios-户外-清新.png"
       ]
     },
     {
       "tag": "卡通",
-      "score": 707,
+      "score": 702,
       "views": 851,
       "downloads": 336,
       "wallpaperCount": 49,
@@ -474,7 +474,7 @@
     },
     {
       "tag": "阳光",
-      "score": 683,
+      "score": 680,
       "views": 693,
       "downloads": 324,
       "wallpaperCount": 14,
@@ -493,7 +493,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 647,
+      "score": 644,
       "views": 907,
       "downloads": 407,
       "wallpaperCount": 43,
@@ -512,7 +512,7 @@
     },
     {
       "tag": "漫画风格",
-      "score": 628,
+      "score": 625,
       "views": 865,
       "downloads": 243,
       "wallpaperCount": 3,
@@ -527,7 +527,7 @@
     },
     {
       "tag": "湖泊",
-      "score": 556,
+      "score": 555,
       "views": 703,
       "downloads": 286,
       "wallpaperCount": 15,
@@ -545,7 +545,7 @@
     },
     {
       "tag": "梦幻",
-      "score": 554,
+      "score": 552,
       "views": 655,
       "downloads": 262,
       "wallpaperCount": 23,
@@ -564,7 +564,7 @@
     },
     {
       "tag": "黑丝",
-      "score": 530,
+      "score": 529,
       "views": 723,
       "downloads": 194,
       "wallpaperCount": 12,
@@ -582,7 +582,7 @@
     },
     {
       "tag": "政治",
-      "score": 512,
+      "score": 509,
       "views": 727,
       "downloads": 300,
       "wallpaperCount": 11,
@@ -600,7 +600,7 @@
     },
     {
       "tag": "紧身衣",
-      "score": 498,
+      "score": 496,
       "views": 745,
       "downloads": 184,
       "wallpaperCount": 4,
@@ -616,7 +616,7 @@
     },
     {
       "tag": "甜美",
-      "score": 480,
+      "score": 479,
       "views": 787,
       "downloads": 155,
       "wallpaperCount": 33,
@@ -635,7 +635,7 @@
     },
     {
       "tag": "天空",
-      "score": 438,
+      "score": 436,
       "views": 611,
       "downloads": 279,
       "wallpaperCount": 6,
@@ -670,7 +670,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 406,
+      "score": 404,
       "views": 512,
       "downloads": 242,
       "wallpaperCount": 35,
@@ -680,9 +680,9 @@
         "avatar"
       ],
       "topWallpapers": [
-        "晴空-治愈-猫.png",
         "雨中绿意小猫.jpeg",
         "戴耳机.jpg",
+        "晴空-治愈-猫.png",
         "image_桌面壁纸话题_电脑壁纸话题_意境..._1.png",
         "海-猫猫.png"
       ]
@@ -706,7 +706,7 @@
     },
     {
       "tag": "影视",
-      "score": 388,
+      "score": 385,
       "views": 612,
       "downloads": 212,
       "wallpaperCount": 28,
@@ -725,7 +725,7 @@
     },
     {
       "tag": "背影",
-      "score": 376,
+      "score": 375,
       "views": 456,
       "downloads": 149,
       "wallpaperCount": 34,
@@ -743,7 +743,7 @@
     },
     {
       "tag": "时尚",
-      "score": 369,
+      "score": 368,
       "views": 500,
       "downloads": 149,
       "wallpaperCount": 12,
@@ -762,7 +762,7 @@
     },
     {
       "tag": "城市",
-      "score": 355,
+      "score": 354,
       "views": 365,
       "downloads": 197,
       "wallpaperCount": 11,
@@ -781,7 +781,7 @@
     },
     {
       "tag": "室内",
-      "score": 353,
+      "score": 352,
       "views": 524,
       "downloads": 130,
       "wallpaperCount": 7,
@@ -799,7 +799,7 @@
     },
     {
       "tag": "自然",
-      "score": 349,
+      "score": 344,
       "views": 416,
       "downloads": 158,
       "wallpaperCount": 13,
@@ -837,7 +837,7 @@
     },
     {
       "tag": "写真",
-      "score": 338,
+      "score": 337,
       "views": 539,
       "downloads": 109,
       "wallpaperCount": 6,
@@ -855,7 +855,7 @@
     },
     {
       "tag": "小屋",
-      "score": 330,
+      "score": 329,
       "views": 390,
       "downloads": 152,
       "wallpaperCount": 3,
@@ -887,7 +887,7 @@
     },
     {
       "tag": "中国风",
-      "score": 313,
+      "score": 312,
       "views": 440,
       "downloads": 156,
       "wallpaperCount": 10,
@@ -905,7 +905,7 @@
     },
     {
       "tag": "光影",
-      "score": 297,
+      "score": 296,
       "views": 473,
       "downloads": 149,
       "wallpaperCount": 10,
