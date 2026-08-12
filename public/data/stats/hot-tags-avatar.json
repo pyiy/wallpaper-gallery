@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:12:02.187Z",
+  "generatedAt": "2026-08-12T18:12:42.192Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 324,
+      "score": 322,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 164,
+      "score": 160,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 161,
+      "score": 158,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 131,
+      "score": 129,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -229,7 +229,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 111,
+      "score": 109,
       "views": 162,
       "downloads": 62,
       "wallpaperCount": 45,
@@ -254,7 +254,7 @@
           "cdnTag": "v1.1.4"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
           "cdnTag": "v1.1.4"
         }
       ]
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 70,
+      "score": 68,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -325,7 +325,7 @@
     },
     {
       "tag": "二次元",
-      "score": 67,
+      "score": 66,
       "views": 86,
       "downloads": 43,
       "wallpaperCount": 25,
@@ -453,7 +453,7 @@
     },
     {
       "tag": "水豚噜噜",
-      "score": 60,
+      "score": 58,
       "views": 84,
       "downloads": 35,
       "wallpaperCount": 17,
@@ -474,12 +474,12 @@
           "cdnTag": "v1.1.4"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
           "cdnTag": "v1.1.4"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
-          "cdnTag": "v1.1.4"
+          "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_145953_146.webp",
+          "cdnTag": "v1.2.57"
         }
       ]
     },
@@ -548,36 +548,8 @@
       ]
     },
     {
-      "tag": "治愈",
-      "score": 54,
-      "views": 27,
-      "downloads": 44,
-      "wallpaperCount": 4,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
-          "cdnTag": "v1.1.42"
-        }
-      ]
-    },
-    {
       "tag": "少女",
-      "score": 54,
+      "score": 53,
       "views": 56,
       "downloads": 28,
       "wallpaperCount": 23,
@@ -636,6 +608,34 @@
         {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_20260310202244_646_4.webp",
           "cdnTag": "v1.2.8"
+        }
+      ]
+    },
+    {
+      "tag": "治愈",
+      "score": 52,
+      "views": 27,
+      "downloads": 44,
+      "wallpaperCount": 4,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
+          "cdnTag": "v1.1.42"
         }
       ]
     },
@@ -753,7 +753,7 @@
     },
     {
       "tag": "玫瑰",
-      "score": 40,
+      "score": 39,
       "views": 25,
       "downloads": 35,
       "wallpaperCount": 6,
@@ -785,7 +785,7 @@
     },
     {
       "tag": "小王子",
-      "score": 39,
+      "score": 38,
       "views": 20,
       "downloads": 36,
       "wallpaperCount": 5,
@@ -816,8 +816,24 @@
       ]
     },
     {
-      "tag": "星空",
+      "tag": "饮品",
       "score": 34,
+      "views": 10,
+      "downloads": 25,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
+          "cdnTag": "v1.2.33"
+        }
+      ]
+    },
+    {
+      "tag": "星空",
+      "score": 33,
       "views": 14,
       "downloads": 31,
       "wallpaperCount": 3,
@@ -836,22 +852,6 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_494_4.webp",
           "cdnTag": "v1.1.42"
-        }
-      ]
-    },
-    {
-      "tag": "饮品",
-      "score": 34,
-      "views": 10,
-      "downloads": 25,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
-          "cdnTag": "v1.2.33"
         }
       ]
     },
@@ -888,38 +888,6 @@
       ]
     },
     {
-      "tag": "狗狗",
-      "score": 30,
-      "views": 34,
-      "downloads": 21,
-      "wallpaperCount": 13,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
-          "cdnTag": "v1.1.53"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-02-05_112219_990.webp",
-          "cdnTag": "v1.1.74"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/柯基_墨镜酷狗.webp",
-          "cdnTag": "v1.1.11"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/655.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/可爱柯基.webp",
-          "cdnTag": "v1.1.24"
-        }
-      ]
-    },
-    {
       "tag": "长发",
       "score": 30,
       "views": 35,
@@ -948,6 +916,38 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/643.webp",
           "cdnTag": "v1.1.96"
+        }
+      ]
+    },
+    {
+      "tag": "狗狗",
+      "score": 29,
+      "views": 34,
+      "downloads": 21,
+      "wallpaperCount": 13,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
+          "cdnTag": "v1.1.53"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-02-05_112219_990.webp",
+          "cdnTag": "v1.1.74"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/柯基_墨镜酷狗.webp",
+          "cdnTag": "v1.1.11"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/655.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/可爱柯基.webp",
+          "cdnTag": "v1.1.24"
         }
       ]
     },
