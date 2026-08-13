@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:12:42.192Z",
+  "generatedAt": "2026-08-13T18:13:25.538Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 322,
+      "score": 321,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -689,7 +689,7 @@
     },
     {
       "tag": "哆啦A梦",
-      "score": 44,
+      "score": 43,
       "views": 63,
       "downloads": 27,
       "wallpaperCount": 11,
@@ -1156,18 +1156,34 @@
       ]
     },
     {
-      "tag": "办公电脑前皱眉",
+      "tag": "户外",
       "score": 21,
       "views": 25,
-      "downloads": 16,
-      "wallpaperCount": 1,
+      "downloads": 11,
+      "wallpaperCount": 11,
       "series": [
         "avatar"
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/办公电脑前皱眉.webp",
-          "cdnTag": "v1.1.13"
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/image_氛围感男头话题_热门头像话题_男..._11.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/644.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/image_氛围感男头话题_热门头像话题_男..._6.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/微信图片_20260310202246_648_4.webp",
+          "cdnTag": "v1.2.8"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._1.webp",
+          "cdnTag": "v1.1.85"
         }
       ]
     }
