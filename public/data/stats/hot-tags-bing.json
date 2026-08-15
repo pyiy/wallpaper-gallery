@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T18:11:01.061Z",
+  "generatedAt": "2026-08-15T17:41:14.103Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 210,
+      "score": 209,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -90,7 +90,7 @@
     },
     {
       "tag": "2025 11",
-      "score": 33,
+      "score": 32,
       "views": 51,
       "downloads": 26,
       "wallpaperCount": 17,
@@ -120,7 +120,7 @@
     },
     {
       "tag": "2025 07",
-      "score": 19,
+      "score": 18,
       "views": 27,
       "downloads": 25,
       "wallpaperCount": 12,
@@ -131,8 +131,8 @@
         "bing-2025-07-11.jpg",
         "bing-2025-07-23.jpg",
         "bing-2025-07-15.jpg",
-        "bing-2025-07-21.jpg",
-        "bing-2025-07-28.jpg"
+        "bing-2025-07-28.jpg",
+        "bing-2025-07-30.jpg"
       ]
     },
     {
@@ -146,19 +146,6 @@
       ],
       "topWallpapers": [
         "bing-2026-01-04.jpg"
-      ]
-    },
-    {
-      "tag": "小村庄，大视野",
-      "score": 16,
-      "views": 25,
-      "downloads": 9,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-15.jpg"
       ]
     },
     {
@@ -176,6 +163,19 @@
         "bing-2025-03-20.jpg",
         "bing-2025-03-11.jpg",
         "bing-2025-03-12.jpg"
+      ]
+    },
+    {
+      "tag": "小村庄，大视野",
+      "score": 15,
+      "views": 25,
+      "downloads": 9,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-15.jpg"
       ]
     },
     {
