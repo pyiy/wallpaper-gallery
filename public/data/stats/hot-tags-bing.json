@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T17:41:14.103Z",
+  "generatedAt": "2026-08-16T17:40:27.402Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 209,
+      "score": 208,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -17,12 +17,12 @@
         "bing-2026-01-04.jpg",
         "bing-2026-01-15.jpg",
         "bing-2026-01-06.jpg",
-        "bing-2026-01-01.jpg"
+        "bing-2026-01-09.jpg"
       ]
     },
     {
       "tag": "2026 03",
-      "score": 150,
+      "score": 149,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -56,7 +56,7 @@
     },
     {
       "tag": "2026 02",
-      "score": 59,
+      "score": 58,
       "views": 83,
       "downloads": 30,
       "wallpaperCount": 18,
@@ -64,8 +64,8 @@
         "bing"
       ],
       "topWallpapers": [
-        "bing-2026-02-25.jpg",
         "bing-2026-02-01.jpg",
+        "bing-2026-02-25.jpg",
         "bing-2026-02-06.jpg",
         "bing-2026-02-28.jpg",
         "bing-2026-02-08.jpg"
@@ -309,19 +309,6 @@
       ]
     },
     {
-      "tag": "伸个懒腰，迈向新年！",
-      "score": 11,
-      "views": 22,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-01.jpg"
-      ]
-    },
-    {
       "tag": "2025 05",
       "score": 10,
       "views": 18,
@@ -353,6 +340,19 @@
         "bing-2025-04-03.jpg",
         "bing-2025-04-05.jpg",
         "bing-2025-04-06.jpg"
+      ]
+    },
+    {
+      "tag": "伸个懒腰，迈向新年！",
+      "score": 10,
+      "views": 22,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-01.jpg"
       ]
     },
     {
@@ -418,19 +418,6 @@
       ],
       "topWallpapers": [
         "bing-2026-03-14.jpg"
-      ]
-    },
-    {
-      "tag": "治愈、宁静且充满希望",
-      "score": 8,
-      "views": 6,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-07.jpg"
       ]
     },
     {
@@ -539,6 +526,19 @@
       ],
       "topWallpapers": [
         "bing-2026-01-24.jpg"
+      ]
+    },
+    {
+      "tag": "治愈、宁静且充满希望",
+      "score": 7,
+      "views": 6,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-07.jpg"
       ]
     },
     {
