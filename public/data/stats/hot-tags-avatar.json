@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T17:46:11.105Z",
+  "generatedAt": "2026-08-20T17:52:17.795Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 312,
+      "score": 311,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -100,38 +100,6 @@
       ]
     },
     {
-      "tag": "萌宠",
-      "score": 156,
-      "views": 194,
-      "downloads": 113,
-      "wallpaperCount": 35,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴眼镜男孩肩上趴着小猫.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/微信图片_2026-01-23_165613_598.webp",
-          "cdnTag": "v1.1.53"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/浴室里的小黄鸭猫.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
-          "cdnTag": "v1.1.53"
-        }
-      ]
-    },
-    {
       "tag": "插画",
       "score": 155,
       "views": 166,
@@ -164,8 +132,40 @@
       ]
     },
     {
+      "tag": "萌宠",
+      "score": 155,
+      "views": 194,
+      "downloads": 113,
+      "wallpaperCount": 35,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴眼镜男孩肩上趴着小猫.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/微信图片_2026-01-23_165613_598.webp",
+          "cdnTag": "v1.1.53"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/浴室里的小黄鸭猫.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
+          "cdnTag": "v1.1.53"
+        }
+      ]
+    },
+    {
       "tag": "猫咪",
-      "score": 126,
+      "score": 125,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -517,7 +517,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 54,
+      "score": 53,
       "views": 81,
       "downloads": 37,
       "wallpaperCount": 18,
@@ -608,22 +608,6 @@
       ]
     },
     {
-      "tag": "戴耳机",
-      "score": 51,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
       "tag": "甜美",
       "score": 51,
       "views": 53,
@@ -652,6 +636,22 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/642.webp",
           "cdnTag": "v1.1.96"
+        }
+      ]
+    },
+    {
+      "tag": "戴耳机",
+      "score": 50,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
         }
       ]
     },
