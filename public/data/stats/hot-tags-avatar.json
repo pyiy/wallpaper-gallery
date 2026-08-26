@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T17:51:19.851Z",
+  "generatedAt": "2026-08-26T19:21:24.495Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 373,
+      "score": 372,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 151,
+      "score": 150,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 150,
+      "score": 148,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 122,
+      "score": 120,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 65,
+      "score": 64,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -548,34 +548,6 @@
       ]
     },
     {
-      "tag": "治愈",
-      "score": 51,
-      "views": 27,
-      "downloads": 44,
-      "wallpaperCount": 4,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
-          "cdnTag": "v1.1.42"
-        }
-      ]
-    },
-    {
       "tag": "甜美",
       "score": 51,
       "views": 53,
@@ -608,18 +580,30 @@
       ]
     },
     {
-      "tag": "戴耳机",
+      "tag": "治愈",
       "score": 50,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
+      "views": 27,
+      "downloads": 44,
+      "wallpaperCount": 4,
       "series": [
         "avatar"
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
+          "cdnTag": "v1.1.42"
         }
       ]
     },
@@ -684,6 +668,22 @@
         {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_20260310202259_665_4.webp",
           "cdnTag": "v1.2.8"
+        }
+      ]
+    },
+    {
+      "tag": "戴耳机",
+      "score": 49,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
         }
       ]
     },
@@ -953,7 +953,7 @@
     },
     {
       "tag": "卡通简笔画",
-      "score": 26,
+      "score": 25,
       "views": 46,
       "downloads": 14,
       "wallpaperCount": 12,
@@ -978,7 +978,7 @@
           "cdnTag": "v1.1.40"
         },
         {
-          "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/圣诞帽麻花辫托腮.webp",
+          "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/黄夹女孩捧福字.webp",
           "cdnTag": "v1.1.11"
         }
       ]
@@ -1132,30 +1132,6 @@
       ]
     },
     {
-      "tag": "搞笑",
-      "score": 21,
-      "views": 27,
-      "downloads": 15,
-      "wallpaperCount": 3,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/微信图片_2026-01-23_165613_598.webp",
-          "cdnTag": "v1.1.53"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
-          "cdnTag": "v1.1.53"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/通用/微信图片_2026-01-23_165101_406.webp",
-          "cdnTag": "v1.1.53"
-        }
-      ]
-    },
-    {
       "tag": "户外",
       "score": 21,
       "views": 25,
@@ -1184,6 +1160,22 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._1.webp",
           "cdnTag": "v1.1.85"
+        }
+      ]
+    },
+    {
+      "tag": "办公电脑前皱眉",
+      "score": 20,
+      "views": 25,
+      "downloads": 16,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/办公电脑前皱眉.webp",
+          "cdnTag": "v1.1.13"
         }
       ]
     }
