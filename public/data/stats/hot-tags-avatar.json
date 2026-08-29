@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T01:32:49.241Z",
+  "generatedAt": "2026-08-29T01:02:25.523Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 303,
+      "score": 302,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 148,
+      "score": 146,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 120,
+      "score": 118,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -324,38 +324,6 @@
       ]
     },
     {
-      "tag": "少年",
-      "score": 62,
-      "views": 40,
-      "downloads": 43,
-      "wallpaperCount": 9,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/氛围感/微信图片_20260119095918_477_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/背影/646.webp",
-          "cdnTag": "v1.1.96"
-        }
-      ]
-    },
-    {
       "tag": "二次元",
       "score": 61,
       "views": 86,
@@ -384,6 +352,38 @@
         {
           "thumbnail": "/thumbnail/avatar/插画/二次元/紫衣少女.webp",
           "cdnTag": "v1.1.29"
+        }
+      ]
+    },
+    {
+      "tag": "少年",
+      "score": 61,
+      "views": 40,
+      "downloads": 43,
+      "wallpaperCount": 9,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._14.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/微信图片_20260119095918_477_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/646.webp",
+          "cdnTag": "v1.1.96"
         }
       ]
     },
@@ -517,7 +517,7 @@
     },
     {
       "tag": "清新",
-      "score": 53,
+      "score": 52,
       "views": 38,
       "downloads": 36,
       "wallpaperCount": 11,
@@ -841,7 +841,7 @@
     },
     {
       "tag": "饮品",
-      "score": 32,
+      "score": 31,
       "views": 10,
       "downloads": 25,
       "wallpaperCount": 1,
