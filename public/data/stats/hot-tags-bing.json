@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-29T01:02:25.545Z",
+  "generatedAt": "2026-08-29T19:49:54.803Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 203,
+      "score": 202,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -16,13 +16,13 @@
         "bing-2026-01-03.jpg",
         "bing-2026-01-04.jpg",
         "bing-2026-01-15.jpg",
-        "bing-2026-01-06.jpg",
-        "bing-2026-01-09.jpg"
+        "bing-2026-01-09.jpg",
+        "bing-2026-01-10.jpg"
       ]
     },
     {
       "tag": "2026 03",
-      "score": 143,
+      "score": 142,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -296,19 +296,6 @@
       ]
     },
     {
-      "tag": "努克的慵懒时光",
-      "score": 11,
-      "views": 23,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-06.jpg"
-      ]
-    },
-    {
       "tag": "2025 05",
       "score": 10,
       "views": 18,
@@ -340,6 +327,19 @@
         "bing-2025-04-03.jpg",
         "bing-2025-04-05.jpg",
         "bing-2025-04-06.jpg"
+      ]
+    },
+    {
+      "tag": "努克的慵懒时光",
+      "score": 10,
+      "views": 23,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-06.jpg"
       ]
     },
     {

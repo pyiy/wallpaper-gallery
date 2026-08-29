@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T01:02:25.523Z",
+  "generatedAt": "2026-08-29T19:49:54.786Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 302,
+      "score": 301,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 150,
+      "score": 149,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -229,7 +229,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 103,
+      "score": 102,
       "views": 162,
       "downloads": 62,
       "wallpaperCount": 45,
@@ -246,12 +246,12 @@
           "cdnTag": "v1.2.8"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202252_657_4.webp",
-          "cdnTag": "v1.2.8"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/冷脸持刀气场全开.webp",
           "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202252_657_4.webp",
+          "cdnTag": "v1.2.8"
         },
         {
           "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 64,
+      "score": 62,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -420,38 +420,6 @@
       ]
     },
     {
-      "tag": "水豚噜噜",
-      "score": 55,
-      "views": 84,
-      "downloads": 35,
-      "wallpaperCount": 17,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/微信图片_20260310202253_658_4.webp",
-          "cdnTag": "v1.2.8"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202252_657_4.webp",
-          "cdnTag": "v1.2.8"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/冷脸持刀气场全开.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
-          "cdnTag": "v1.1.4"
-        }
-      ]
-    },
-    {
       "tag": "卡通",
       "score": 55,
       "views": 82,
@@ -480,6 +448,38 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_145953_146.webp",
           "cdnTag": "v1.2.57"
+        }
+      ]
+    },
+    {
+      "tag": "水豚噜噜",
+      "score": 54,
+      "views": 84,
+      "downloads": 35,
+      "wallpaperCount": 17,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/微信图片_20260310202253_658_4.webp",
+          "cdnTag": "v1.2.8"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/冷脸持刀气场全开.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/通用/微信图片_20260310202252_657_4.webp",
+          "cdnTag": "v1.2.8"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
@@ -689,7 +689,7 @@
     },
     {
       "tag": "哆啦A梦",
-      "score": 42,
+      "score": 41,
       "views": 63,
       "downloads": 27,
       "wallpaperCount": 11,
@@ -785,7 +785,7 @@
     },
     {
       "tag": "可爱",
-      "score": 37,
+      "score": 36,
       "views": 49,
       "downloads": 19,
       "wallpaperCount": 14,
@@ -1164,18 +1164,26 @@
       ]
     },
     {
-      "tag": "办公电脑前皱眉",
+      "tag": "搞笑",
       "score": 20,
-      "views": 25,
-      "downloads": 16,
-      "wallpaperCount": 1,
+      "views": 27,
+      "downloads": 15,
+      "wallpaperCount": 3,
       "series": [
         "avatar"
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/办公电脑前皱眉.webp",
-          "cdnTag": "v1.1.13"
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/微信图片_2026-01-23_165613_598.webp",
+          "cdnTag": "v1.1.53"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
+          "cdnTag": "v1.1.53"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/通用/微信图片_2026-01-23_165101_406.webp",
+          "cdnTag": "v1.1.53"
         }
       ]
     }
