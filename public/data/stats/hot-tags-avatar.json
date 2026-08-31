@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-30T19:54:13.261Z",
+  "generatedAt": "2026-08-31T21:56:47.150Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 370,
+      "score": 369,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 300,
+      "score": 299,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -485,7 +485,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 53,
+      "score": 52,
       "views": 81,
       "downloads": 37,
       "wallpaperCount": 18,
@@ -952,8 +952,24 @@
       ]
     },
     {
+      "tag": "银发蓝瞳男孩比耶蓝天背景",
+      "score": 24,
+      "views": 32,
+      "downloads": 19,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        }
+      ]
+    },
+    {
       "tag": "卡通简笔画",
-      "score": 25,
+      "score": 24,
       "views": 46,
       "downloads": 14,
       "wallpaperCount": 12,
@@ -980,22 +996,6 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/黄夹女孩捧福字.webp",
           "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
-      "tag": "银发蓝瞳男孩比耶蓝天背景",
-      "score": 24,
-      "views": 32,
-      "downloads": 19,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
         }
       ]
     },
@@ -1064,22 +1064,6 @@
       ]
     },
     {
-      "tag": "戴耳机麦当劳外卖",
-      "score": 22,
-      "views": 39,
-      "downloads": 14,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/戴耳机麦当劳外卖.webp",
-          "cdnTag": "v1.1.13"
-        }
-      ]
-    },
-    {
       "tag": "微笑",
       "score": 22,
       "views": 22,
@@ -1128,6 +1112,22 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/卡通简笔画/微信图片_20260119095916_475_4.webp",
           "cdnTag": "v1.1.40"
+        }
+      ]
+    },
+    {
+      "tag": "戴耳机麦当劳外卖",
+      "score": 21,
+      "views": 39,
+      "downloads": 14,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/戴耳机麦当劳外卖.webp",
+          "cdnTag": "v1.1.13"
         }
       ]
     },
