@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T21:56:47.150Z",
+  "generatedAt": "2026-09-01T19:59:17.996Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -229,7 +229,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 102,
+      "score": 101,
       "views": 162,
       "downloads": 62,
       "wallpaperCount": 45,
@@ -254,7 +254,7 @@
           "cdnTag": "v1.2.8"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
           "cdnTag": "v1.1.4"
         }
       ]
@@ -453,7 +453,7 @@
     },
     {
       "tag": "水豚噜噜",
-      "score": 54,
+      "score": 53,
       "views": 84,
       "downloads": 35,
       "wallpaperCount": 17,
@@ -474,11 +474,11 @@
           "cdnTag": "v1.2.8"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
           "cdnTag": "v1.1.4"
         },
         {
-          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/深夜自习专注看书.webp",
+          "thumbnail": "/thumbnail/avatar/IP形象/水豚噜噜/趴在栏杆上看日出.webp",
           "cdnTag": "v1.1.4"
         }
       ]

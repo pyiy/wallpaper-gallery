@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T21:56:47.168Z",
+  "generatedAt": "2026-09-01T19:59:18.009Z",
   "series": "bing",
   "total": 244,
   "tags": [
@@ -22,7 +22,7 @@
     },
     {
       "tag": "2026 03",
-      "score": 142,
+      "score": 140,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -180,7 +180,7 @@
     },
     {
       "tag": "漂浮的传承",
-      "score": 14,
+      "score": 13,
       "views": 17,
       "downloads": 8,
       "wallpaperCount": 1,
@@ -356,19 +356,6 @@
       ]
     },
     {
-      "tag": "每一步，都是传承",
-      "score": 10,
-      "views": 14,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-01.jpg"
-      ]
-    },
-    {
       "tag": "大自然的波普艺术",
       "score": 9,
       "views": 13,
@@ -379,6 +366,19 @@
       ],
       "topWallpapers": [
         "bing-2026-01-19.jpg"
+      ]
+    },
+    {
+      "tag": "每一步，都是传承",
+      "score": 9,
+      "views": 14,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-01.jpg"
       ]
     },
     {
