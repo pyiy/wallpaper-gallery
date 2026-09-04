@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T19:57:57.129Z",
+  "generatedAt": "2026-09-04T19:42:14.585Z",
   "series": "video",
   "total": 25,
   "tags": [
     {
       "tag": "desktop",
-      "score": 358,
+      "score": 357,
       "views": 664,
       "downloads": 86,
       "wallpaperCount": 6,
@@ -57,7 +57,7 @@
     },
     {
       "tag": "风景",
-      "score": 126,
+      "score": 125,
       "views": 212,
       "downloads": 37,
       "wallpaperCount": 2,
@@ -225,7 +225,7 @@
     },
     {
       "tag": "雨滴玻璃",
-      "score": 47,
+      "score": 46,
       "views": 87,
       "downloads": 11,
       "wallpaperCount": 1,
@@ -241,7 +241,7 @@
     },
     {
       "tag": "紫色光影",
-      "score": 47,
+      "score": 46,
       "views": 87,
       "downloads": 11,
       "wallpaperCount": 1,
@@ -369,7 +369,7 @@
     },
     {
       "tag": "柴犬",
-      "score": 18,
+      "score": 17,
       "views": 39,
       "downloads": 2,
       "wallpaperCount": 1,
@@ -385,7 +385,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 18,
+      "score": 17,
       "views": 39,
       "downloads": 2,
       "wallpaperCount": 1,
@@ -401,7 +401,7 @@
     },
     {
       "tag": "贴脸卖萌",
-      "score": 18,
+      "score": 17,
       "views": 39,
       "downloads": 2,
       "wallpaperCount": 1,
@@ -417,7 +417,7 @@
     },
     {
       "tag": "mobile",
-      "score": 18,
+      "score": 17,
       "views": 39,
       "downloads": 2,
       "wallpaperCount": 1,

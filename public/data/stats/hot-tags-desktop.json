@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T19:57:57.017Z",
+  "generatedAt": "2026-09-04T19:42:14.398Z",
   "series": "desktop",
   "total": 747,
   "tags": [
     {
       "tag": "风景",
-      "score": 3978,
+      "score": 3966,
       "views": 5624,
       "downloads": 2372,
       "wallpaperCount": 83,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "人像",
-      "score": 2998,
+      "score": 2987,
       "views": 5352,
       "downloads": 1415,
       "wallpaperCount": 97,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "动漫",
-      "score": 2436,
+      "score": 2427,
       "views": 4138,
       "downloads": 1419,
       "wallpaperCount": 123,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 2321,
+      "score": 2310,
       "views": 3760,
       "downloads": 1244,
       "wallpaperCount": 117,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "魅力",
-      "score": 1585,
+      "score": 1580,
       "views": 2951,
       "downloads": 678,
       "wallpaperCount": 31,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "二次元",
-      "score": 1167,
+      "score": 1165,
       "views": 2016,
       "downloads": 626,
       "wallpaperCount": 67,
@@ -197,7 +197,7 @@
     },
     {
       "tag": "清新",
-      "score": 987,
+      "score": 983,
       "views": 1498,
       "downloads": 493,
       "wallpaperCount": 31,
@@ -229,7 +229,7 @@
     },
     {
       "tag": "日落",
-      "score": 931,
+      "score": 927,
       "views": 1208,
       "downloads": 521,
       "wallpaperCount": 22,
@@ -261,7 +261,7 @@
     },
     {
       "tag": "雪山",
-      "score": 830,
+      "score": 826,
       "views": 1238,
       "downloads": 527,
       "wallpaperCount": 16,
@@ -293,7 +293,7 @@
     },
     {
       "tag": "国风",
-      "score": 743,
+      "score": 740,
       "views": 1230,
       "downloads": 349,
       "wallpaperCount": 39,
@@ -325,7 +325,7 @@
     },
     {
       "tag": "场景",
-      "score": 680,
+      "score": 676,
       "views": 1115,
       "downloads": 375,
       "wallpaperCount": 31,
@@ -357,7 +357,7 @@
     },
     {
       "tag": "海滨",
-      "score": 657,
+      "score": 655,
       "views": 848,
       "downloads": 356,
       "wallpaperCount": 13,
@@ -389,7 +389,7 @@
     },
     {
       "tag": "星空",
-      "score": 610,
+      "score": 609,
       "views": 893,
       "downloads": 378,
       "wallpaperCount": 12,
@@ -421,7 +421,7 @@
     },
     {
       "tag": "夜景",
-      "score": 580,
+      "score": 577,
       "views": 874,
       "downloads": 347,
       "wallpaperCount": 10,
@@ -453,7 +453,7 @@
     },
     {
       "tag": "文字",
-      "score": 555,
+      "score": 554,
       "views": 946,
       "downloads": 318,
       "wallpaperCount": 28,
@@ -485,7 +485,7 @@
     },
     {
       "tag": "花卉",
-      "score": 516,
+      "score": 514,
       "views": 631,
       "downloads": 277,
       "wallpaperCount": 10,
@@ -549,7 +549,7 @@
     },
     {
       "tag": "少女",
-      "score": 467,
+      "score": 463,
       "views": 619,
       "downloads": 246,
       "wallpaperCount": 15,
@@ -562,12 +562,12 @@
           "cdnTag": "v1.2.52"
         },
         {
-          "thumbnail": "/thumbnail/desktop/人像/清新/20260424_165629.webp",
-          "cdnTag": "v1.2.73"
-        },
-        {
           "thumbnail": "/thumbnail/desktop/人像/清新/夏日-度假-棕榈树.webp",
           "cdnTag": "v1.1.52"
+        },
+        {
+          "thumbnail": "/thumbnail/desktop/人像/清新/20260424_165629.webp",
+          "cdnTag": "v1.2.73"
         },
         {
           "thumbnail": "/thumbnail/desktop/人像/清新/少女-少女清纯.webp",
@@ -581,7 +581,7 @@
     },
     {
       "tag": "政治",
-      "score": 458,
+      "score": 456,
       "views": 692,
       "downloads": 298,
       "wallpaperCount": 10,
@@ -613,7 +613,7 @@
     },
     {
       "tag": "卡通",
-      "score": 413,
+      "score": 411,
       "views": 526,
       "downloads": 221,
       "wallpaperCount": 18,
@@ -677,7 +677,7 @@
     },
     {
       "tag": "蜡笔小新",
-      "score": 401,
+      "score": 398,
       "views": 607,
       "downloads": 289,
       "wallpaperCount": 15,
@@ -709,7 +709,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 383,
+      "score": 381,
       "views": 545,
       "downloads": 230,
       "wallpaperCount": 20,
@@ -741,7 +741,7 @@
     },
     {
       "tag": "优雅",
-      "score": 352,
+      "score": 350,
       "views": 795,
       "downloads": 165,
       "wallpaperCount": 8,
@@ -762,18 +762,18 @@
           "cdnTag": "v1.1.22"
         },
         {
-          "thumbnail": "/thumbnail/desktop/动漫/二次元/、玫瑰少女.webp",
-          "cdnTag": "v1.1.13"
-        },
-        {
           "thumbnail": "/thumbnail/desktop/人像/清新/优雅-夕阳-少女.webp",
           "cdnTag": "v1.1.27"
+        },
+        {
+          "thumbnail": "/thumbnail/desktop/动漫/二次元/、玫瑰少女.webp",
+          "cdnTag": "v1.1.13"
         }
       ]
     },
     {
       "tag": "创意",
-      "score": 339,
+      "score": 336,
       "views": 557,
       "downloads": 192,
       "wallpaperCount": 15,
@@ -837,7 +837,7 @@
     },
     {
       "tag": "丝袜",
-      "score": 324,
+      "score": 323,
       "views": 675,
       "downloads": 116,
       "wallpaperCount": 2,
@@ -857,7 +857,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 307,
+      "score": 306,
       "views": 391,
       "downloads": 184,
       "wallpaperCount": 11,
@@ -1033,7 +1033,7 @@
     },
     {
       "tag": "光影",
-      "score": 241,
+      "score": 239,
       "views": 419,
       "downloads": 130,
       "wallpaperCount": 6,
@@ -1065,7 +1065,7 @@
     },
     {
       "tag": "蓝天",
-      "score": 236,
+      "score": 234,
       "views": 247,
       "downloads": 157,
       "wallpaperCount": 3,
@@ -1089,7 +1089,7 @@
     },
     {
       "tag": "时尚",
-      "score": 222,
+      "score": 221,
       "views": 360,
       "downloads": 93,
       "wallpaperCount": 4,
@@ -1165,7 +1165,7 @@
     },
     {
       "tag": "线条小狗",
-      "score": 210,
+      "score": 208,
       "views": 298,
       "downloads": 141,
       "wallpaperCount": 10,

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T19:57:57.138Z",
+  "generatedAt": "2026-09-04T19:42:14.600Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 200,
+      "score": 199,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -39,7 +39,7 @@
     },
     {
       "tag": "2025 12",
-      "score": 69,
+      "score": 68,
       "views": 114,
       "downloads": 55,
       "wallpaperCount": 28,
@@ -56,7 +56,7 @@
     },
     {
       "tag": "2026 02",
-      "score": 55,
+      "score": 54,
       "views": 83,
       "downloads": 30,
       "wallpaperCount": 18,
@@ -65,9 +65,9 @@
       ],
       "topWallpapers": [
         "bing-2026-02-25.jpg",
-        "bing-2026-02-06.jpg",
         "bing-2026-02-28.jpg",
         "bing-2026-02-01.jpg",
+        "bing-2026-02-06.jpg",
         "bing-2026-02-26.jpg"
       ]
     },
@@ -167,7 +167,7 @@
     },
     {
       "tag": "小村庄，大视野",
-      "score": 15,
+      "score": 14,
       "views": 25,
       "downloads": 9,
       "wallpaperCount": 1,
