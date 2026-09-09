@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:58:48.771Z",
+  "generatedAt": "2026-09-09T19:52:55.966Z",
   "series": "bing",
   "total": 244,
   "tags": [
@@ -39,7 +39,7 @@
     },
     {
       "tag": "2025 12",
-      "score": 67,
+      "score": 66,
       "views": 114,
       "downloads": 55,
       "wallpaperCount": 28,
@@ -47,9 +47,9 @@
         "bing"
       ],
       "topWallpapers": [
-        "bing-2025-12-30.jpg",
         "bing-2025-12-07.jpg",
         "bing-2025-12-31.jpg",
+        "bing-2025-12-30.jpg",
         "bing-2025-12-01.jpg",
         "bing-2025-12-19.jpg"
       ]
@@ -572,16 +572,16 @@
       ]
     },
     {
-      "tag": "晨光透过结霜的树木洒下，瑞典",
+      "tag": "苹果韵，旧时光",
       "score": 6,
-      "views": 9,
-      "downloads": 4,
+      "views": 15,
+      "downloads": 2,
       "wallpaperCount": 1,
       "series": [
         "bing"
       ],
       "topWallpapers": [
-        "bing-2025-12-30.jpg"
+        "bing-2026-01-13.jpg"
       ]
     }
   ]
