@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T19:52:00.062Z",
+  "generatedAt": "2026-09-11T19:52:09.992Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 196,
+      "score": 194,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -16,8 +16,8 @@
         "bing-2026-01-03.jpg",
         "bing-2026-01-04.jpg",
         "bing-2026-01-15.jpg",
-        "bing-2026-01-10.jpg",
-        "bing-2026-01-06.jpg"
+        "bing-2026-01-06.jpg",
+        "bing-2026-01-01.jpg"
       ]
     },
     {
@@ -257,19 +257,6 @@
       ]
     },
     {
-      "tag": "纯粹的瑞士魔力",
-      "score": 11,
-      "views": 18,
-      "downloads": 7,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-10.jpg"
-      ]
-    },
-    {
       "tag": "城市花开",
       "score": 11,
       "views": 15,
@@ -314,6 +301,19 @@
         "bing-2025-04-03.jpg",
         "bing-2025-04-05.jpg",
         "bing-2025-04-06.jpg"
+      ]
+    },
+    {
+      "tag": "纯粹的瑞士魔力",
+      "score": 10,
+      "views": 18,
+      "downloads": 7,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-10.jpg"
       ]
     },
     {
@@ -464,19 +464,6 @@
       ]
     },
     {
-      "tag": "巴伐利亚的瑰宝",
-      "score": 7,
-      "views": 8,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-26.jpg"
-      ]
-    },
-    {
       "tag": "治愈、宁静且充满希望",
       "score": 7,
       "views": 6,
@@ -556,6 +543,19 @@
       ],
       "topWallpapers": [
         "bing-2025-12-07.jpg"
+      ]
+    },
+    {
+      "tag": "巴伐利亚的瑰宝",
+      "score": 6,
+      "views": 8,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-26.jpg"
       ]
     },
     {
