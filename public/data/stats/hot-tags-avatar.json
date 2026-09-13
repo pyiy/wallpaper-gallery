@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-12T19:29:11.403Z",
+  "generatedAt": "2026-09-13T19:34:14.972Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 350,
+      "score": 349,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 291,
+      "score": 290,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 163,
+      "score": 162,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -229,7 +229,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 100,
+      "score": 99,
       "views": 162,
       "downloads": 62,
       "wallpaperCount": 45,
@@ -357,7 +357,7 @@
     },
     {
       "tag": "少年",
-      "score": 58,
+      "score": 57,
       "views": 40,
       "downloads": 43,
       "wallpaperCount": 9,
@@ -421,7 +421,7 @@
     },
     {
       "tag": "水豚噜噜",
-      "score": 53,
+      "score": 52,
       "views": 84,
       "downloads": 35,
       "wallpaperCount": 17,
@@ -516,8 +516,36 @@
       ]
     },
     {
+      "tag": "治愈",
+      "score": 48,
+      "views": 27,
+      "downloads": 44,
+      "wallpaperCount": 4,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
+          "cdnTag": "v1.1.42"
+        }
+      ]
+    },
+    {
       "tag": "清新",
-      "score": 49,
+      "score": 48,
       "views": 38,
       "downloads": 36,
       "wallpaperCount": 11,
@@ -544,34 +572,6 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_2026-04-09_152751_224.webp",
           "cdnTag": "v1.2.57"
-        }
-      ]
-    },
-    {
-      "tag": "治愈",
-      "score": 48,
-      "views": 27,
-      "downloads": 44,
-      "wallpaperCount": 4,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
-          "cdnTag": "v1.1.42"
         }
       ]
     },
@@ -841,7 +841,7 @@
     },
     {
       "tag": "饮品",
-      "score": 30,
+      "score": 29,
       "views": 10,
       "downloads": 25,
       "wallpaperCount": 1,
