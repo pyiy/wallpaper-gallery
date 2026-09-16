@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:18:42.210Z",
+  "generatedAt": "2026-09-16T20:15:56.149Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 289,
+      "score": 288,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 143,
+      "score": 141,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 116,
+      "score": 115,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -576,22 +576,6 @@
       ]
     },
     {
-      "tag": "戴耳机",
-      "score": 47,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
       "tag": "表情包",
       "score": 47,
       "views": 89,
@@ -620,6 +604,22 @@
         {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_20260310202259_665_4.webp",
           "cdnTag": "v1.2.8"
+        }
+      ]
+    },
+    {
+      "tag": "戴耳机",
+      "score": 46,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
         }
       ]
     },
@@ -689,7 +689,7 @@
     },
     {
       "tag": "哆啦A梦",
-      "score": 40,
+      "score": 39,
       "views": 63,
       "downloads": 27,
       "wallpaperCount": 11,
@@ -889,7 +889,7 @@
     },
     {
       "tag": "狗狗",
-      "score": 27,
+      "score": 26,
       "views": 34,
       "downloads": 21,
       "wallpaperCount": 13,
@@ -902,12 +902,12 @@
           "cdnTag": "v1.1.53"
         },
         {
-          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-02-05_112219_990.webp",
-          "cdnTag": "v1.1.74"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/柯基_墨镜酷狗.webp",
           "cdnTag": "v1.1.11"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-02-05_112219_990.webp",
+          "cdnTag": "v1.1.74"
         },
         {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/655.webp",
@@ -1156,18 +1156,34 @@
       ]
     },
     {
-      "tag": "办公电脑前皱眉",
+      "tag": "户外",
       "score": 19,
       "views": 25,
-      "downloads": 16,
-      "wallpaperCount": 1,
+      "downloads": 11,
+      "wallpaperCount": 11,
       "series": [
         "avatar"
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/动漫/哆啦A梦/办公电脑前皱眉.webp",
-          "cdnTag": "v1.1.13"
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/644.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/狗狗/image_氛围感男头话题_热门头像话题_男..._6.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/image_氛围感男头话题_热门头像话题_男..._11.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/微信图片_20260310202246_648_4.webp",
+          "cdnTag": "v1.2.8"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._1.webp",
+          "cdnTag": "v1.1.85"
         }
       ]
     }
