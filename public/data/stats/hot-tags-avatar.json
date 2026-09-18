@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:25:03.698Z",
+  "generatedAt": "2026-09-18T19:46:48.489Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 287,
+      "score": 286,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -62,7 +62,7 @@
           "cdnTag": "v1.1.13"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
           "cdnTag": "v1.2.33"
         }
       ]
@@ -357,7 +357,7 @@
     },
     {
       "tag": "少年",
-      "score": 56,
+      "score": 55,
       "views": 40,
       "downloads": 43,
       "wallpaperCount": 9,
@@ -370,11 +370,11 @@
           "cdnTag": "v1.2.33"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
           "cdnTag": "v1.2.33"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/通用/image_高级头像话题_趣味头像话题_头像..._10.webp",
+          "thumbnail": "/thumbnail/avatar/动漫/通用/image_氛围感男头话题_热门头像话题_男..._10.webp",
           "cdnTag": "v1.2.33"
         },
         {
