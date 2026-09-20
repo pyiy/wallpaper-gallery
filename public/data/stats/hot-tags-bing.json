@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T19:24:36.439Z",
+  "generatedAt": "2026-09-20T19:33:53.909Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 189,
+      "score": 187,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -120,7 +120,7 @@
     },
     {
       "tag": "王者视野",
-      "score": 17,
+      "score": 16,
       "views": 43,
       "downloads": 7,
       "wallpaperCount": 1,
@@ -408,19 +408,6 @@
       ]
     },
     {
-      "tag": "高角羚群紧急戒备",
-      "score": 8,
-      "views": 20,
-      "downloads": 3,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-05.jpg"
-      ]
-    },
-    {
       "tag": "2025 09",
       "score": 7,
       "views": 10,
@@ -487,6 +474,19 @@
       ],
       "topWallpapers": [
         "bing-2026-03-21.jpg"
+      ]
+    },
+    {
+      "tag": "高角羚群紧急戒备",
+      "score": 7,
+      "views": 20,
+      "downloads": 3,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-05.jpg"
       ]
     },
     {

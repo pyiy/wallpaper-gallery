@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T19:24:36.421Z",
+  "generatedAt": "2026-09-20T19:33:53.892Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 343,
+      "score": 341,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 160,
+      "score": 159,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -197,7 +197,7 @@
     },
     {
       "tag": "甜妹",
-      "score": 100,
+      "score": 99,
       "views": 130,
       "downloads": 68,
       "wallpaperCount": 58,
@@ -229,7 +229,7 @@
     },
     {
       "tag": "IP形象",
-      "score": 97,
+      "score": 94,
       "views": 162,
       "downloads": 62,
       "wallpaperCount": 45,
@@ -984,38 +984,6 @@
       ]
     },
     {
-      "tag": "长发",
-      "score": 23,
-      "views": 35,
-      "downloads": 14,
-      "wallpaperCount": 14,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_2026-04-09_152643_002.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/644.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/640 (1).webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/image_向往自由的女生头像话题_散落人间..._1.webp",
-          "cdnTag": "v1.2.33"
-        }
-      ]
-    },
-    {
       "tag": "银发蓝瞳男孩比耶蓝天背景",
       "score": 22,
       "views": 32,
@@ -1028,6 +996,38 @@
         {
           "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
           "cdnTag": "v1.1.4"
+        }
+      ]
+    },
+    {
+      "tag": "长发",
+      "score": 22,
+      "views": 35,
+      "downloads": 14,
+      "wallpaperCount": 14,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/644.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_2026-04-09_152643_002.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/640 (1).webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/image_向往自由的女生头像话题_散落人间..._1.webp",
+          "cdnTag": "v1.2.33"
         }
       ]
     },
