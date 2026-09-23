@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-22T20:16:13.495Z",
+  "generatedAt": "2026-09-23T20:32:11.033Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 186,
+      "score": 184,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -22,7 +22,7 @@
     },
     {
       "tag": "2026 03",
-      "score": 133,
+      "score": 130,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -179,19 +179,6 @@
       ]
     },
     {
-      "tag": "漂浮的传承",
-      "score": 13,
-      "views": 17,
-      "downloads": 8,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-02.jpg"
-      ]
-    },
-    {
       "tag": "2025 10",
       "score": 12,
       "views": 19,
@@ -206,6 +193,19 @@
         "bing-2025-10-19.jpg",
         "bing-2025-10-30.jpg",
         "bing-2025-10-01.jpg"
+      ]
+    },
+    {
+      "tag": "漂浮的传承",
+      "score": 12,
+      "views": 17,
+      "downloads": 8,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-02.jpg"
       ]
     },
     {
@@ -438,19 +438,6 @@
       ]
     },
     {
-      "tag": "治愈、宁静且充满希望",
-      "score": 7,
-      "views": 6,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-07.jpg"
-      ]
-    },
-    {
       "tag": "从抗拒到绽放",
       "score": 7,
       "views": 13,
@@ -500,19 +487,6 @@
       ],
       "topWallpapers": [
         "bing-2026-03-24.jpg"
-      ]
-    },
-    {
-      "tag": "春日绯梦",
-      "score": 7,
-      "views": 14,
-      "downloads": 2,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-20.jpg"
       ]
     },
     {
@@ -572,16 +546,42 @@
       ]
     },
     {
-      "tag": "苹果韵，旧时光",
+      "tag": "治愈、宁静且充满希望",
       "score": 6,
-      "views": 15,
+      "views": 6,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-07.jpg"
+      ]
+    },
+    {
+      "tag": "春日绯梦",
+      "score": 6,
+      "views": 14,
       "downloads": 2,
       "wallpaperCount": 1,
       "series": [
         "bing"
       ],
       "topWallpapers": [
-        "bing-2026-01-13.jpg"
+        "bing-2026-03-20.jpg"
+      ]
+    },
+    {
+      "tag": "冰山上天然形成的拱门  南极洲",
+      "score": 5,
+      "views": 5,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2025-12-01.jpg"
       ]
     }
   ]
