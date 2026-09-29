@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:34:52.747Z",
+  "generatedAt": "2026-09-29T21:27:42.290Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 276,
+      "score": 275,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "插画",
-      "score": 137,
+      "score": 136,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -580,8 +580,24 @@
       ]
     },
     {
-      "tag": "治愈",
+      "tag": "戴耳机",
       "score": 45,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
+        }
+      ]
+    },
+    {
+      "tag": "治愈",
+      "score": 44,
       "views": 27,
       "downloads": 44,
       "wallpaperCount": 4,
@@ -604,22 +620,6 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
           "cdnTag": "v1.1.42"
-        }
-      ]
-    },
-    {
-      "tag": "戴耳机",
-      "score": 45,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
         }
       ]
     },
@@ -721,7 +721,7 @@
     },
     {
       "tag": "小王子",
-      "score": 34,
+      "score": 33,
       "views": 20,
       "downloads": 36,
       "wallpaperCount": 5,
@@ -753,7 +753,7 @@
     },
     {
       "tag": "玫瑰",
-      "score": 34,
+      "score": 33,
       "views": 25,
       "downloads": 35,
       "wallpaperCount": 6,
@@ -817,7 +817,7 @@
     },
     {
       "tag": "星空",
-      "score": 29,
+      "score": 28,
       "views": 14,
       "downloads": 31,
       "wallpaperCount": 3,
