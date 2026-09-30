@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T21:27:42.290Z",
+  "generatedAt": "2026-09-30T21:28:01.766Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 275,
+      "score": 274,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -100,38 +100,6 @@
       ]
     },
     {
-      "tag": "插画",
-      "score": 136,
-      "views": 166,
-      "downloads": 117,
-      "wallpaperCount": 47,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/640 (4).webp",
-          "cdnTag": "v1.2.57"
-        }
-      ]
-    },
-    {
       "tag": "萌宠",
       "score": 136,
       "views": 194,
@@ -160,6 +128,38 @@
         {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
           "cdnTag": "v1.1.53"
+        }
+      ]
+    },
+    {
+      "tag": "插画",
+      "score": 135,
+      "views": 166,
+      "downloads": 117,
+      "wallpaperCount": 47,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/闭眼冥想的小男孩阳光床.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
@@ -292,38 +292,6 @@
       ]
     },
     {
-      "tag": "二次元",
-      "score": 57,
-      "views": 86,
-      "downloads": 43,
-      "wallpaperCount": 25,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/640 (4).webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._13.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/红包祝福.webp",
-          "cdnTag": "v1.1.22"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._12.webp",
-          "cdnTag": "v1.2.33"
-        }
-      ]
-    },
-    {
       "tag": "创意",
       "score": 56,
       "views": 73,
@@ -352,6 +320,38 @@
         {
           "thumbnail": "/thumbnail/avatar/插画/创意/煎蛋_抱番茄.webp",
           "cdnTag": "v1.1.22"
+        }
+      ]
+    },
+    {
+      "tag": "二次元",
+      "score": 56,
+      "views": 86,
+      "downloads": 43,
+      "wallpaperCount": 25,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._13.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/640 (4).webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/红包祝福.webp",
+          "cdnTag": "v1.1.22"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._12.webp",
+          "cdnTag": "v1.2.33"
         }
       ]
     },
@@ -453,7 +453,7 @@
     },
     {
       "tag": "卡通",
-      "score": 50,
+      "score": 49,
       "views": 82,
       "downloads": 29,
       "wallpaperCount": 18,
@@ -952,8 +952,24 @@
       ]
     },
     {
+      "tag": "银发蓝瞳男孩比耶蓝天背景",
+      "score": 22,
+      "views": 32,
+      "downloads": 19,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        }
+      ]
+    },
+    {
       "tag": "海贼王",
-      "score": 23,
+      "score": 22,
       "views": 35,
       "downloads": 14,
       "wallpaperCount": 12,
@@ -980,22 +996,6 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/海贼王/路飞_草帽剑士.webp",
           "cdnTag": "v1.1.24"
-        }
-      ]
-    },
-    {
-      "tag": "银发蓝瞳男孩比耶蓝天背景",
-      "score": 22,
-      "views": 32,
-      "downloads": 19,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
         }
       ]
     },
