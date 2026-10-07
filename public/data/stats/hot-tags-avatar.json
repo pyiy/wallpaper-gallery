@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T21:45:13.447Z",
+  "generatedAt": "2026-10-07T22:06:07.909Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 328,
+      "score": 325,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 270,
+      "score": 269,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 151,
+      "score": 150,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -261,7 +261,7 @@
     },
     {
       "tag": "背影",
-      "score": 60,
+      "score": 58,
       "views": 81,
       "downloads": 40,
       "wallpaperCount": 29,
@@ -278,16 +278,16 @@
           "cdnTag": "v1.2.34"
         },
         {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/image_氛围感女头话题_精选女头话题_高..._16.webp",
+          "cdnTag": "v1.2.34"
+        },
+        {
           "thumbnail": "/thumbnail/avatar/人像/背影/image_氛围感男头话题_热门头像话题_男..._4.webp",
           "cdnTag": "v1.2.33"
         },
         {
           "thumbnail": "/thumbnail/avatar/人像/背影/image_高级头像话题_趣味头像话题_头像..._8.webp",
           "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/氛围感/image_氛围感女头话题_精选女头话题_高..._16.webp",
-          "cdnTag": "v1.2.34"
         }
       ]
     },
@@ -689,7 +689,7 @@
     },
     {
       "tag": "哆啦A梦",
-      "score": 36,
+      "score": 35,
       "views": 63,
       "downloads": 27,
       "wallpaperCount": 11,
@@ -1033,7 +1033,7 @@
     },
     {
       "tag": "侧脸",
-      "score": 21,
+      "score": 20,
       "views": 23,
       "downloads": 15,
       "wallpaperCount": 7,
@@ -1046,12 +1046,12 @@
           "cdnTag": "v1.1.96"
         },
         {
-          "thumbnail": "/thumbnail/avatar/人像/背影/image_氛围感男头话题_热门头像话题_男..._4.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/人像/氛围感/651.webp",
           "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/image_氛围感男头话题_热门头像话题_男..._4.webp",
+          "cdnTag": "v1.2.33"
         },
         {
           "thumbnail": "/thumbnail/avatar/人像/氛围感/660.webp",
