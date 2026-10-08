@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T22:06:07.909Z",
+  "generatedAt": "2026-10-08T22:13:51.172Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 325,
+      "score": 322,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 269,
+      "score": 266,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "插画",
-      "score": 133,
+      "score": 132,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -197,7 +197,7 @@
     },
     {
       "tag": "甜妹",
-      "score": 97,
+      "score": 94,
       "views": 130,
       "downloads": 68,
       "wallpaperCount": 58,
@@ -222,8 +222,8 @@
           "cdnTag": "v1.1.22"
         },
         {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/甜妹_阳光微风.webp",
-          "cdnTag": "v1.1.22"
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/image_向往自由的女生头像话题_散落人间..._7.webp",
+          "cdnTag": "v1.2.33"
         }
       ]
     },
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 56,
+      "score": 55,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -389,7 +389,7 @@
     },
     {
       "tag": "搞怪",
-      "score": 50,
+      "score": 49,
       "views": 98,
       "downloads": 33,
       "wallpaperCount": 35,
@@ -416,38 +416,6 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_150149_668.webp",
           "cdnTag": "v1.2.57"
-        }
-      ]
-    },
-    {
-      "tag": "蜡笔小新",
-      "score": 49,
-      "views": 81,
-      "downloads": 37,
-      "wallpaperCount": 18,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/戴耳机麦当劳外卖.webp",
-          "cdnTag": "v1.1.13"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/蜡笔小新_被书压倒.webp",
-          "cdnTag": "v1.1.22"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/滑雪小新.webp",
-          "cdnTag": "v1.1.24"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/吃饱再说.webp",
-          "cdnTag": "v1.1.22"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/我办事操心吧.webp",
-          "cdnTag": "v1.1.22"
         }
       ]
     },
@@ -512,6 +480,38 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_145953_146.webp",
           "cdnTag": "v1.2.57"
+        }
+      ]
+    },
+    {
+      "tag": "蜡笔小新",
+      "score": 47,
+      "views": 81,
+      "downloads": 37,
+      "wallpaperCount": 18,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/戴耳机麦当劳外卖.webp",
+          "cdnTag": "v1.1.13"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/蜡笔小新_被书压倒.webp",
+          "cdnTag": "v1.1.22"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/滑雪小新.webp",
+          "cdnTag": "v1.1.24"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/微信图片_2026-03-27_135058_509.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/蜡笔小新/image_蜡笔小新话题_流浪春天话题_情头..._0.webp",
+          "cdnTag": "v1.1.85"
         }
       ]
     },
@@ -657,7 +657,7 @@
     },
     {
       "tag": "表情包",
-      "score": 43,
+      "score": 42,
       "views": 89,
       "downloads": 27,
       "wallpaperCount": 33,
