@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T21:47:16.352Z",
+  "generatedAt": "2026-10-10T20:36:35.153Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 261,
+      "score": 260,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 132,
+      "score": 131,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 107,
+      "score": 106,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -577,7 +577,7 @@
     },
     {
       "tag": "戴耳机",
-      "score": 44,
+      "score": 43,
       "views": 61,
       "downloads": 39,
       "wallpaperCount": 1,
@@ -856,38 +856,6 @@
       ]
     },
     {
-      "tag": "猫和老鼠",
-      "score": 25,
-      "views": 41,
-      "downloads": 21,
-      "wallpaperCount": 10,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/汤姆捂脸.webp",
-          "cdnTag": "v1.1.26"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/杰瑞大笑.webp",
-          "cdnTag": "v1.1.26"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/微信图片_20260120161539_485_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/微信图片_20260120161541_489_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/杰瑞_愤怒办公_猫和老鼠.webp",
-          "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
       "tag": "狗狗",
       "score": 25,
       "views": 34,
@@ -916,6 +884,38 @@
         {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/image_氛围感男头话题_热门头像话题_男..._6.webp",
           "cdnTag": "v1.2.33"
+        }
+      ]
+    },
+    {
+      "tag": "猫和老鼠",
+      "score": 24,
+      "views": 41,
+      "downloads": 21,
+      "wallpaperCount": 10,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/汤姆捂脸.webp",
+          "cdnTag": "v1.1.26"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/微信图片_20260120161539_485_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/微信图片_20260120161541_489_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/杰瑞_愤怒办公_猫和老鼠.webp",
+          "cdnTag": "v1.1.11"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/杰瑞大笑.webp",
+          "cdnTag": "v1.1.26"
         }
       ]
     },
