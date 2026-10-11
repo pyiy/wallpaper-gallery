@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:36:35.153Z",
+  "generatedAt": "2026-10-11T21:00:17.098Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -100,38 +100,6 @@
       ]
     },
     {
-      "tag": "插画",
-      "score": 132,
-      "views": 166,
-      "downloads": 117,
-      "wallpaperCount": 47,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/闭眼冥想的小男孩阳光床.webp",
-          "cdnTag": "v1.1.4"
-        }
-      ]
-    },
-    {
       "tag": "萌宠",
       "score": 131,
       "views": 194,
@@ -160,6 +128,38 @@
         {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
           "cdnTag": "v1.1.53"
+        }
+      ]
+    },
+    {
+      "tag": "插画",
+      "score": 130,
+      "views": 166,
+      "downloads": 117,
+      "wallpaperCount": 47,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/闭眼冥想的小男孩阳光床.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
@@ -324,38 +324,6 @@
       ]
     },
     {
-      "tag": "二次元",
-      "score": 54,
-      "views": 86,
-      "downloads": 43,
-      "wallpaperCount": 25,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/640 (4).webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._13.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/红包祝福.webp",
-          "cdnTag": "v1.1.22"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._12.webp",
-          "cdnTag": "v1.2.33"
-        }
-      ]
-    },
-    {
       "tag": "少年",
       "score": 53,
       "views": 40,
@@ -384,6 +352,38 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/氛围感/微信图片_20260119095918_477_4.webp",
           "cdnTag": "v1.1.42"
+        }
+      ]
+    },
+    {
+      "tag": "二次元",
+      "score": 52,
+      "views": 86,
+      "downloads": 43,
+      "wallpaperCount": 25,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/640 (4).webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._13.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/红包祝福.webp",
+          "cdnTag": "v1.1.22"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._12.webp",
+          "cdnTag": "v1.2.33"
         }
       ]
     },
@@ -625,7 +625,7 @@
     },
     {
       "tag": "少女",
-      "score": 43,
+      "score": 42,
       "views": 56,
       "downloads": 28,
       "wallpaperCount": 23,
