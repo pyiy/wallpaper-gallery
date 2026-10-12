@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-11T21:00:17.114Z",
+  "generatedAt": "2026-10-12T23:39:52.462Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 178,
+      "score": 177,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -119,19 +119,6 @@
       ]
     },
     {
-      "tag": "王者视野",
-      "score": 16,
-      "views": 43,
-      "downloads": 7,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-04.jpg"
-      ]
-    },
-    {
       "tag": "2025 03",
       "score": 15,
       "views": 31,
@@ -146,6 +133,19 @@
         "bing-2025-03-20.jpg",
         "bing-2025-03-11.jpg",
         "bing-2025-03-12.jpg"
+      ]
+    },
+    {
+      "tag": "王者视野",
+      "score": 15,
+      "views": 43,
+      "downloads": 7,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-04.jpg"
       ]
     },
     {
