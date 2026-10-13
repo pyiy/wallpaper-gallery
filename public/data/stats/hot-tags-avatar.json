@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:39:52.441Z",
+  "generatedAt": "2026-10-13T21:53:31.514Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 260,
+      "score": 258,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -100,38 +100,6 @@
       ]
     },
     {
-      "tag": "插画",
-      "score": 130,
-      "views": 166,
-      "downloads": 117,
-      "wallpaperCount": 47,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
-          "cdnTag": "v1.1.4"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/闭眼冥想的小男孩阳光床.webp",
-          "cdnTag": "v1.1.4"
-        }
-      ]
-    },
-    {
       "tag": "萌宠",
       "score": 130,
       "views": 194,
@@ -160,6 +128,38 @@
         {
           "thumbnail": "/thumbnail/avatar/萌宠/狗狗/微信图片_2026-01-23_165009_180.webp",
           "cdnTag": "v1.1.53"
+        }
+      ]
+    },
+    {
+      "tag": "插画",
+      "score": 129,
+      "views": 166,
+      "downloads": 117,
+      "wallpaperCount": 47,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/登山少年眺望远方山景.webp",
+          "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/闭眼冥想的小男孩阳光床.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
@@ -357,7 +357,7 @@
     },
     {
       "tag": "少年",
-      "score": 52,
+      "score": 51,
       "views": 40,
       "downloads": 43,
       "wallpaperCount": 9,
@@ -517,7 +517,7 @@
     },
     {
       "tag": "清新",
-      "score": 45,
+      "score": 44,
       "views": 38,
       "downloads": 36,
       "wallpaperCount": 11,
@@ -549,7 +549,7 @@
     },
     {
       "tag": "治愈",
-      "score": 44,
+      "score": 43,
       "views": 27,
       "downloads": 44,
       "wallpaperCount": 4,
@@ -721,7 +721,7 @@
     },
     {
       "tag": "小王子",
-      "score": 33,
+      "score": 32,
       "views": 20,
       "downloads": 36,
       "wallpaperCount": 5,
@@ -753,7 +753,7 @@
     },
     {
       "tag": "玫瑰",
-      "score": 33,
+      "score": 32,
       "views": 25,
       "downloads": 35,
       "wallpaperCount": 6,
@@ -817,7 +817,7 @@
     },
     {
       "tag": "星空",
-      "score": 28,
+      "score": 27,
       "views": 14,
       "downloads": 31,
       "wallpaperCount": 3,
@@ -841,7 +841,7 @@
     },
     {
       "tag": "饮品",
-      "score": 27,
+      "score": 26,
       "views": 10,
       "downloads": 25,
       "wallpaperCount": 1,
