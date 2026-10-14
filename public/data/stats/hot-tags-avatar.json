@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T21:53:31.514Z",
+  "generatedAt": "2026-10-14T20:48:04.332Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 319,
+      "score": 318,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 150,
+      "score": 149,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -1000,38 +1000,6 @@
       ]
     },
     {
-      "tag": "侧脸",
-      "score": 20,
-      "views": 23,
-      "downloads": 15,
-      "wallpaperCount": 7,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/人像/氛围感/659.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/氛围感/651.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/背影/image_氛围感男头话题_热门头像话题_男..._4.webp",
-          "cdnTag": "v1.2.33"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/氛围感/660.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/人像/背影/653.webp",
-          "cdnTag": "v1.1.96"
-        }
-      ]
-    },
-    {
       "tag": "海贼王",
       "score": 20,
       "views": 35,
@@ -1060,6 +1028,38 @@
         {
           "thumbnail": "/thumbnail/avatar/动漫/海贼王/微信图片_2026-03-26_160956_703.webp",
           "cdnTag": "v1.2.57"
+        }
+      ]
+    },
+    {
+      "tag": "侧脸",
+      "score": 19,
+      "views": 23,
+      "downloads": 15,
+      "wallpaperCount": 7,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/659.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/651.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/image_氛围感男头话题_热门头像话题_男..._4.webp",
+          "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/氛围感/660.webp",
+          "cdnTag": "v1.1.96"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/背影/653.webp",
+          "cdnTag": "v1.1.96"
         }
       ]
     },
