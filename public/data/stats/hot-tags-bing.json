@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-15T20:25:05.794Z",
+  "generatedAt": "2026-10-16T19:59:33.812Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 175,
+      "score": 173,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -16,8 +16,8 @@
         "bing-2026-01-03.jpg",
         "bing-2026-01-04.jpg",
         "bing-2026-01-15.jpg",
-        "bing-2026-01-10.jpg",
-        "bing-2026-01-06.jpg"
+        "bing-2026-01-06.jpg",
+        "bing-2026-01-01.jpg"
       ]
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "tag": "传奇故事前的篇章",
-      "score": 17,
+      "score": 16,
       "views": 36,
       "downloads": 11,
       "wallpaperCount": 1,
@@ -260,19 +260,6 @@
       ]
     },
     {
-      "tag": "纯粹的瑞士魔力",
-      "score": 10,
-      "views": 18,
-      "downloads": 7,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-01-10.jpg"
-      ]
-    },
-    {
       "tag": "当水划出界线",
       "score": 10,
       "views": 16,
@@ -314,6 +301,19 @@
         "bing-2025-05-22.jpg",
         "bing-2025-05-23.jpg",
         "bing-2025-05-25.jpg"
+      ]
+    },
+    {
+      "tag": "纯粹的瑞士魔力",
+      "score": 9,
+      "views": 18,
+      "downloads": 7,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-01-10.jpg"
       ]
     },
     {
