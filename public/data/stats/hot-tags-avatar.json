@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:29:34.989Z",
+  "generatedAt": "2026-10-19T21:36:26.433Z",
   "series": "avatar",
   "total": 504,
   "tags": [
@@ -101,7 +101,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 130,
+      "score": 129,
       "views": 194,
       "downloads": 113,
       "wallpaperCount": 35,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "插画",
-      "score": 128,
+      "score": 127,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "猫咪",
-      "score": 106,
+      "score": 105,
       "views": 160,
       "downloads": 92,
       "wallpaperCount": 22,
@@ -293,7 +293,7 @@
     },
     {
       "tag": "创意",
-      "score": 55,
+      "score": 54,
       "views": 73,
       "downloads": 46,
       "wallpaperCount": 20,
@@ -548,22 +548,6 @@
       ]
     },
     {
-      "tag": "戴耳机",
-      "score": 43,
-      "views": 61,
-      "downloads": 39,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
-          "cdnTag": "v1.1.11"
-        }
-      ]
-    },
-    {
       "tag": "甜美",
       "score": 43,
       "views": 53,
@@ -596,30 +580,18 @@
       ]
     },
     {
-      "tag": "治愈",
+      "tag": "戴耳机",
       "score": 42,
-      "views": 27,
-      "downloads": 44,
-      "wallpaperCount": 4,
+      "views": 61,
+      "downloads": 39,
+      "wallpaperCount": 1,
       "series": [
         "avatar"
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
-          "cdnTag": "v1.1.42"
-        },
-        {
-          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
-          "cdnTag": "v1.1.42"
+          "thumbnail": "/thumbnail/avatar/萌宠/猫咪/戴耳机.webp",
+          "cdnTag": "v1.1.11"
         }
       ]
     },
@@ -684,6 +656,34 @@
         {
           "thumbnail": "/thumbnail/avatar/表情包/搞怪/微信图片_20260126155109_64_1186.webp",
           "cdnTag": "v1.1.53"
+        }
+      ]
+    },
+    {
+      "tag": "治愈",
+      "score": 41,
+      "views": 27,
+      "downloads": 44,
+      "wallpaperCount": 4,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161545_493_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/插画/创意/微信图片_2026-04-11_145936_667.webp",
+          "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161544_492_4.webp",
+          "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/小王子/微信图片_20260120161546_495_4.webp",
+          "cdnTag": "v1.1.42"
         }
       ]
     },
