@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-20T20:43:39.657Z",
+  "generatedAt": "2026-10-21T20:43:52.501Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 314,
+      "score": 313,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 252,
+      "score": 251,
       "views": 376,
       "downloads": 210,
       "wallpaperCount": 100,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 148,
+      "score": 147,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -421,7 +421,7 @@
     },
     {
       "tag": "水豚噜噜",
-      "score": 48,
+      "score": 47,
       "views": 84,
       "downloads": 35,
       "wallpaperCount": 17,
@@ -485,7 +485,7 @@
     },
     {
       "tag": "卡通",
-      "score": 46,
+      "score": 45,
       "views": 82,
       "downloads": 29,
       "wallpaperCount": 18,
@@ -506,12 +506,12 @@
           "cdnTag": "v1.2.57"
         },
         {
-          "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_145953_146.webp",
-          "cdnTag": "v1.2.57"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/动漫/猫和老鼠/微信图片_20260120161539_485_4.webp",
           "cdnTag": "v1.1.42"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/动漫/喜羊羊与灰太狼/微信图片_2026-04-11_145953_146.webp",
+          "cdnTag": "v1.2.57"
         }
       ]
     },
@@ -785,7 +785,7 @@
     },
     {
       "tag": "可爱",
-      "score": 30,
+      "score": 29,
       "views": 49,
       "downloads": 19,
       "wallpaperCount": 14,
