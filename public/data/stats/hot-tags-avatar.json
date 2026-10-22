@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T20:43:52.501Z",
+  "generatedAt": "2026-10-22T20:38:17.695Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 313,
+      "score": 312,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 147,
+      "score": 146,
       "views": 235,
       "downloads": 121,
       "wallpaperCount": 61,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "插画",
-      "score": 127,
+      "score": 126,
       "views": 166,
       "downloads": 117,
       "wallpaperCount": 47,
@@ -325,7 +325,7 @@
     },
     {
       "tag": "二次元",
-      "score": 52,
+      "score": 51,
       "views": 86,
       "downloads": 43,
       "wallpaperCount": 25,
@@ -920,22 +920,6 @@
       ]
     },
     {
-      "tag": "银发蓝瞳男孩比耶蓝天背景",
-      "score": 21,
-      "views": 32,
-      "downloads": 19,
-      "wallpaperCount": 1,
-      "series": [
-        "avatar"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
-          "cdnTag": "v1.1.4"
-        }
-      ]
-    },
-    {
       "tag": "卡通简笔画",
       "score": 21,
       "views": 46,
@@ -996,6 +980,22 @@
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/image_向往自由的女生头像话题_散落人间..._1.webp",
           "cdnTag": "v1.2.33"
+        }
+      ]
+    },
+    {
+      "tag": "银发蓝瞳男孩比耶蓝天背景",
+      "score": 20,
+      "views": 32,
+      "downloads": 19,
+      "wallpaperCount": 1,
+      "series": [
+        "avatar"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/avatar/插画/二次元/银发蓝瞳男孩比耶蓝天背景.webp",
+          "cdnTag": "v1.1.4"
         }
       ]
     },
