@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T20:38:17.705Z",
+  "generatedAt": "2026-10-23T20:31:42.086Z",
   "series": "bing",
   "total": 244,
   "tags": [
@@ -464,23 +464,6 @@
       ]
     },
     {
-      "tag": "2025 09",
-      "score": 6,
-      "views": 10,
-      "downloads": 7,
-      "wallpaperCount": 5,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2025-09-28.jpg",
-        "bing-2025-09-25.jpg",
-        "bing-2025-09-02.jpg",
-        "bing-2025-09-14.jpg",
-        "bing-2025-09-16.jpg"
-      ]
-    },
-    {
       "tag": "雪中的故宫，中国北京",
       "score": 6,
       "views": 8,
@@ -556,6 +539,23 @@
       ],
       "topWallpapers": [
         "bing-2026-03-20.jpg"
+      ]
+    },
+    {
+      "tag": "2025 09",
+      "score": 5,
+      "views": 10,
+      "downloads": 7,
+      "wallpaperCount": 5,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2025-09-25.jpg",
+        "bing-2025-09-28.jpg",
+        "bing-2025-09-02.jpg",
+        "bing-2025-09-14.jpg",
+        "bing-2025-09-16.jpg"
       ]
     },
     {

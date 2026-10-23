@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-22T20:38:17.696Z",
+  "generatedAt": "2026-10-23T20:31:42.072Z",
   "series": "video",
   "total": 25,
   "tags": [
     {
       "tag": "desktop",
-      "score": 296,
+      "score": 294,
       "views": 664,
       "downloads": 86,
       "wallpaperCount": 6,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "动漫",
-      "score": 115,
+      "score": 114,
       "views": 271,
       "downloads": 29,
       "wallpaperCount": 2,
@@ -57,7 +57,7 @@
     },
     {
       "tag": "风景",
-      "score": 104,
+      "score": 103,
       "views": 212,
       "downloads": 37,
       "wallpaperCount": 2,
@@ -193,7 +193,7 @@
     },
     {
       "tag": "晨光飞鸟",
-      "score": 45,
+      "score": 44,
       "views": 115,
       "downloads": 8,
       "wallpaperCount": 1,
@@ -209,7 +209,7 @@
     },
     {
       "tag": "窗边白发少女",
-      "score": 45,
+      "score": 44,
       "views": 115,
       "downloads": 8,
       "wallpaperCount": 1,
@@ -225,7 +225,7 @@
     },
     {
       "tag": "雨滴玻璃",
-      "score": 39,
+      "score": 38,
       "views": 87,
       "downloads": 11,
       "wallpaperCount": 1,
@@ -241,7 +241,7 @@
     },
     {
       "tag": "紫色光影",
-      "score": 39,
+      "score": 38,
       "views": 87,
       "downloads": 11,
       "wallpaperCount": 1,
