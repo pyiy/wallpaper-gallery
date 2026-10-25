@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T19:35:19.129Z",
+  "generatedAt": "2026-10-25T19:47:45.217Z",
   "series": "bing",
   "total": 244,
   "tags": [
@@ -22,7 +22,7 @@
     },
     {
       "tag": "2026 03",
-      "score": 117,
+      "score": 116,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -382,19 +382,6 @@
       ]
     },
     {
-      "tag": "古老岩石，现代灯光",
-      "score": 8,
-      "views": 12,
-      "downloads": 5,
-      "wallpaperCount": 1,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-05.jpg"
-      ]
-    },
-    {
       "tag": "威尼斯的灵魂",
       "score": 8,
       "views": 21,
@@ -405,6 +392,19 @@
       ],
       "topWallpapers": [
         "bing-2026-01-02.jpg"
+      ]
+    },
+    {
+      "tag": "古老岩石，现代灯光",
+      "score": 7,
+      "views": 12,
+      "downloads": 5,
+      "wallpaperCount": 1,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-05.jpg"
       ]
     },
     {
