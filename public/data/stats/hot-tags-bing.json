@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T21:46:25.251Z",
+  "generatedAt": "2026-10-29T21:53:21.611Z",
   "series": "bing",
   "total": 244,
   "tags": [
     {
       "tag": "2026 01",
-      "score": 167,
+      "score": 165,
       "views": 384,
       "downloads": 110,
       "wallpaperCount": 31,
@@ -17,7 +17,7 @@
         "bing-2026-01-04.jpg",
         "bing-2026-01-15.jpg",
         "bing-2026-01-06.jpg",
-        "bing-2026-01-01.jpg"
+        "bing-2026-01-09.jpg"
       ]
     },
     {
@@ -213,23 +213,6 @@
       ]
     },
     {
-      "tag": "2025 10",
-      "score": 11,
-      "views": 19,
-      "downloads": 12,
-      "wallpaperCount": 9,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2025-10-04.jpg",
-        "bing-2025-10-19.jpg",
-        "bing-2025-10-30.jpg",
-        "bing-2025-10-02.jpg",
-        "bing-2025-10-01.jpg"
-      ]
-    },
-    {
       "tag": "漂浮的传承",
       "score": 11,
       "views": 17,
@@ -257,6 +240,23 @@
         "bing-2025-04-03.jpg",
         "bing-2025-04-05.jpg",
         "bing-2025-04-06.jpg"
+      ]
+    },
+    {
+      "tag": "2025 10",
+      "score": 10,
+      "views": 19,
+      "downloads": 12,
+      "wallpaperCount": 9,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2025-10-19.jpg",
+        "bing-2025-10-30.jpg",
+        "bing-2025-10-02.jpg",
+        "bing-2025-10-04.jpg",
+        "bing-2025-10-01.jpg"
       ]
     },
     {
@@ -344,7 +344,7 @@
     },
     {
       "tag": "伸个懒腰，迈向新年！",
-      "score": 9,
+      "score": 8,
       "views": 22,
       "downloads": 5,
       "wallpaperCount": 1,
