@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T21:53:21.602Z",
+  "generatedAt": "2026-10-30T21:37:10.566Z",
   "series": "avatar",
   "total": 504,
   "tags": [
     {
       "tag": "人像",
-      "score": 303,
+      "score": 302,
       "views": 486,
       "downloads": 242,
       "wallpaperCount": 158,
@@ -197,7 +197,7 @@
     },
     {
       "tag": "甜妹",
-      "score": 88,
+      "score": 87,
       "views": 130,
       "downloads": 68,
       "wallpaperCount": 58,
@@ -206,12 +206,12 @@
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_2026-04-09_152818_396.webp",
           "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
+          "cdnTag": "v1.1.96"
         },
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_20260119095919_478_4.webp",
@@ -625,7 +625,7 @@
     },
     {
       "tag": "甜美",
-      "score": 38,
+      "score": 37,
       "views": 53,
       "downloads": 31,
       "wallpaperCount": 24,
@@ -634,12 +634,12 @@
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/微信图片_2026-04-09_152818_396.webp",
           "cdnTag": "v1.2.57"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
+          "cdnTag": "v1.1.96"
         },
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/664.webp",
@@ -657,7 +657,7 @@
     },
     {
       "tag": "少女",
-      "score": 37,
+      "score": 36,
       "views": 56,
       "downloads": 28,
       "wallpaperCount": 23,
@@ -666,12 +666,12 @@
       ],
       "topWallpapers": [
         {
-          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
-          "cdnTag": "v1.1.96"
-        },
-        {
           "thumbnail": "/thumbnail/avatar/插画/二次元/image_氛围感男头话题_热门头像话题_男..._13.webp",
           "cdnTag": "v1.2.33"
+        },
+        {
+          "thumbnail": "/thumbnail/avatar/人像/甜妹/663.webp",
+          "cdnTag": "v1.1.96"
         },
         {
           "thumbnail": "/thumbnail/avatar/人像/甜妹/644.webp",
@@ -969,7 +969,7 @@
     },
     {
       "tag": "长发",
-      "score": 20,
+      "score": 19,
       "views": 35,
       "downloads": 14,
       "wallpaperCount": 14,
