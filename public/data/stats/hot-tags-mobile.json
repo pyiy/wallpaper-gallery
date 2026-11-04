@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-03T22:24:00.470Z",
+  "generatedAt": "2026-11-04T22:42:18.059Z",
   "series": "mobile",
   "total": 727,
   "tags": [
     {
       "tag": "人像",
-      "score": 3090,
+      "score": 3078,
       "views": 5826,
       "downloads": 1788,
       "wallpaperCount": 152,
@@ -37,7 +37,7 @@
     },
     {
       "tag": "插画",
-      "score": 1332,
+      "score": 1326,
       "views": 2169,
       "downloads": 868,
       "wallpaperCount": 86,
@@ -69,7 +69,7 @@
     },
     {
       "tag": "魅力",
-      "score": 1276,
+      "score": 1271,
       "views": 2457,
       "downloads": 688,
       "wallpaperCount": 36,
@@ -101,7 +101,7 @@
     },
     {
       "tag": "风景",
-      "score": 1228,
+      "score": 1224,
       "views": 2141,
       "downloads": 880,
       "wallpaperCount": 83,
@@ -133,7 +133,7 @@
     },
     {
       "tag": "清新",
-      "score": 971,
+      "score": 966,
       "views": 1683,
       "downloads": 604,
       "wallpaperCount": 50,
@@ -165,7 +165,7 @@
     },
     {
       "tag": "长发",
-      "score": 761,
+      "score": 760,
       "views": 1302,
       "downloads": 415,
       "wallpaperCount": 21,
@@ -197,7 +197,7 @@
     },
     {
       "tag": "氛围感",
-      "score": 737,
+      "score": 733,
       "views": 1352,
       "downloads": 469,
       "wallpaperCount": 52,
@@ -222,14 +222,14 @@
           "cdnTag": "v1.1.57"
         },
         {
-          "thumbnail": "/thumbnail/mobile/插画/氛围感/1_1774514885.webp",
-          "cdnTag": "v1.2.30"
+          "thumbnail": "/thumbnail/mobile/人像/氛围感/冬日-围巾-树林.webp",
+          "cdnTag": "v1.1.9"
         }
       ]
     },
     {
       "tag": "创意",
-      "score": 701,
+      "score": 697,
       "views": 1279,
       "downloads": 476,
       "wallpaperCount": 69,
@@ -261,7 +261,7 @@
     },
     {
       "tag": "动漫",
-      "score": 639,
+      "score": 637,
       "views": 1252,
       "downloads": 413,
       "wallpaperCount": 73,
@@ -293,7 +293,7 @@
     },
     {
       "tag": "阳光",
-      "score": 472,
+      "score": 471,
       "views": 656,
       "downloads": 310,
       "wallpaperCount": 11,
@@ -325,7 +325,7 @@
     },
     {
       "tag": "漫画风格",
-      "score": 457,
+      "score": 456,
       "views": 865,
       "downloads": 243,
       "wallpaperCount": 3,
@@ -349,7 +349,7 @@
     },
     {
       "tag": "黑丝",
-      "score": 374,
+      "score": 373,
       "views": 703,
       "downloads": 188,
       "wallpaperCount": 11,
@@ -381,7 +381,7 @@
     },
     {
       "tag": "紧身衣",
-      "score": 365,
+      "score": 364,
       "views": 745,
       "downloads": 184,
       "wallpaperCount": 4,
@@ -409,7 +409,7 @@
     },
     {
       "tag": "星空",
-      "score": 342,
+      "score": 339,
       "views": 593,
       "downloads": 238,
       "wallpaperCount": 14,
@@ -441,7 +441,7 @@
     },
     {
       "tag": "蓝天",
-      "score": 317,
+      "score": 315,
       "views": 534,
       "downloads": 167,
       "wallpaperCount": 6,
@@ -473,7 +473,7 @@
     },
     {
       "tag": "梦幻",
-      "score": 297,
+      "score": 295,
       "views": 443,
       "downloads": 198,
       "wallpaperCount": 10,
@@ -505,7 +505,7 @@
     },
     {
       "tag": "少女",
-      "score": 288,
+      "score": 287,
       "views": 497,
       "downloads": 173,
       "wallpaperCount": 16,
@@ -537,7 +537,7 @@
     },
     {
       "tag": "丝袜",
-      "score": 285,
+      "score": 284,
       "views": 584,
       "downloads": 142,
       "wallpaperCount": 1,
@@ -553,7 +553,7 @@
     },
     {
       "tag": "萌宠",
-      "score": 243,
+      "score": 239,
       "views": 445,
       "downloads": 139,
       "wallpaperCount": 23,
@@ -570,12 +570,12 @@
           "cdnTag": "v1.2.9"
         },
         {
-          "thumbnail": "/thumbnail/mobile/人像/萌宠/微信图片_20260408163628_672_4.webp",
-          "cdnTag": "v1.2.53"
-        },
-        {
           "thumbnail": "/thumbnail/mobile/萌宠/狗狗/三只戴墨镜开心笑的狗狗阳光草地.webp",
           "cdnTag": "v1.1.4"
+        },
+        {
+          "thumbnail": "/thumbnail/mobile/人像/萌宠/微信图片_20260408163628_672_4.webp",
+          "cdnTag": "v1.2.53"
         },
         {
           "thumbnail": "/thumbnail/mobile/IP形象/乌萨奇/微信图片_2026-03-27_140825_352.webp",
@@ -616,8 +616,24 @@
       ]
     },
     {
+      "tag": "身材曲线",
+      "score": 197,
+      "views": 347,
+      "downloads": 92,
+      "wallpaperCount": 1,
+      "series": [
+        "mobile"
+      ],
+      "topWallpapers": [
+        {
+          "thumbnail": "/thumbnail/mobile/人像/魅力/20260424165339.webp",
+          "cdnTag": "v1.2.73"
+        }
+      ]
+    },
+    {
       "tag": "室内",
-      "score": 198,
+      "score": 196,
       "views": 392,
       "downloads": 96,
       "wallpaperCount": 4,
@@ -644,24 +660,8 @@
       ]
     },
     {
-      "tag": "身材曲线",
-      "score": 198,
-      "views": 347,
-      "downloads": 92,
-      "wallpaperCount": 1,
-      "series": [
-        "mobile"
-      ],
-      "topWallpapers": [
-        {
-          "thumbnail": "/thumbnail/mobile/人像/魅力/20260424165339.webp",
-          "cdnTag": "v1.2.73"
-        }
-      ]
-    },
-    {
       "tag": "甜美",
-      "score": 191,
+      "score": 190,
       "views": 414,
       "downloads": 64,
       "wallpaperCount": 4,
@@ -721,7 +721,7 @@
     },
     {
       "tag": "影视",
-      "score": 179,
+      "score": 178,
       "views": 373,
       "downloads": 108,
       "wallpaperCount": 22,
@@ -753,7 +753,7 @@
     },
     {
       "tag": "花卉",
-      "score": 177,
+      "score": 176,
       "views": 305,
       "downloads": 125,
       "wallpaperCount": 11,
@@ -785,7 +785,7 @@
     },
     {
       "tag": "写真",
-      "score": 176,
+      "score": 175,
       "views": 361,
       "downloads": 69,
       "wallpaperCount": 3,
@@ -917,7 +917,7 @@
     },
     {
       "tag": "魅力人像",
-      "score": 148,
+      "score": 147,
       "views": 273,
       "downloads": 112,
       "wallpaperCount": 10,
@@ -981,7 +981,7 @@
     },
     {
       "tag": "文字",
-      "score": 138,
+      "score": 136,
       "views": 237,
       "downloads": 108,
       "wallpaperCount": 18,
