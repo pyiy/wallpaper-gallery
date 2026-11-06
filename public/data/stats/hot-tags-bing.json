@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:43:19.662Z",
+  "generatedAt": "2026-11-06T22:11:58.034Z",
   "series": "bing",
   "total": 244,
   "tags": [
@@ -22,7 +22,7 @@
     },
     {
       "tag": "2026 03",
-      "score": 113,
+      "score": 112,
       "views": 191,
       "downloads": 73,
       "wallpaperCount": 25,
@@ -34,7 +34,7 @@
         "bing-2026-03-18.jpg",
         "bing-2026-03-01.jpg",
         "bing-2026-03-05.jpg",
-        "bing-2026-03-23.jpg"
+        "bing-2026-03-20.jpg"
       ]
     },
     {
@@ -260,20 +260,6 @@
       ]
     },
     {
-      "tag": "当水划出界线",
-      "score": 10,
-      "views": 16,
-      "downloads": 6,
-      "wallpaperCount": 2,
-      "series": [
-        "bing"
-      ],
-      "topWallpapers": [
-        "bing-2026-03-23.jpg",
-        "bing-2026-03-22.jpg"
-      ]
-    },
-    {
       "tag": "2025 05",
       "score": 9,
       "views": 18,
@@ -314,6 +300,20 @@
       ],
       "topWallpapers": [
         "bing-2026-01-09.jpg"
+      ]
+    },
+    {
+      "tag": "当水划出界线",
+      "score": 9,
+      "views": 16,
+      "downloads": 6,
+      "wallpaperCount": 2,
+      "series": [
+        "bing"
+      ],
+      "topWallpapers": [
+        "bing-2026-03-23.jpg",
+        "bing-2026-03-22.jpg"
       ]
     },
     {
